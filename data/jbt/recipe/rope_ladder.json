@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "l  ",
+    "s  ",
+    "l  "
+  ],
+  "key": {
+    "s": "minecraft:string",
+    "l": "minecraft:ladder"
+  },
+  "result": {
+    "id": "minecraft:ladder",
+    "count": 2,
+    "components": {
+      "minecraft:custom_name": "[\"\",{\"text\":\"Rope Ladder\",\"italic\":false}]",
+      "minecraft:custom_model_data": 1022099,
+      "minecraft:custom_data": {"jbt_ladder":true}
+    }
+  }
+}

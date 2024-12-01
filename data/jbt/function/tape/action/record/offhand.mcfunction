@@ -1,0 +1,1 @@
+$item modify entity @s weapon.offhand [{"function": "minecraft:set_custom_data","tag": "{jbt_tape_open:0b}"},{"function": "minecraft:set_lore","entity": "this","lore": [{"text": "$(dimensions)","color":"blue","italic":false}],"mode": "replace_all"},{"function": "minecraft:set_custom_model_data","value": 1022095}]

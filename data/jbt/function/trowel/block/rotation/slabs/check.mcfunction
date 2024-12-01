@@ -1,0 +1,1 @@
+$execute if items entity @s hotbar.$(chosen_slot) #minecraft:slabs run return run function jbt:trowel/block/rotation/slabs/place

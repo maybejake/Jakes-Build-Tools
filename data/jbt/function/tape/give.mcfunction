@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name='["",{"text":"Tape Measure","italic":false}]',minecraft:custom_model_data=1022095,minecraft:custom_data={"jbt_tape":true,"jbt_tape_open":false}]

@@ -1,0 +1,1 @@
+$execute if items entity @s hotbar.$(chosen_slot) #minecraft:trapdoors run return run function jbt:trowel/block/rotation/trapdoors/place

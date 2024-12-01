@@ -1,0 +1,1 @@
+give @p minecraft:rabbit_foot[minecraft:max_stack_size=1,custom_name='["",{"text":"Hardhat","italic":false}]',minecraft:custom_model_data=1022096,attribute_modifiers={modifiers:[{type:"minecraft:block_interaction_range",amount:2,slot:head,id:"jbt_hardhat_reach",operation:add_value}]},minecraft:equippable={slot:"head",model:"hardhat"}]

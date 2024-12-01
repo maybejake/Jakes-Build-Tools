@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:warped_fungus_on_a_stick",
+        "components": {
+          "minecraft:custom_model_data": 102201
+        }
+      },
+      "title": "Jake's Build Tools",
+      "description": "Tools to make building easy!",
+      "background": "minecraft:textures/block/stone_bricks.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

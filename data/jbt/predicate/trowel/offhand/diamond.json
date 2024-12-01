@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "predicates": {
+          "minecraft:custom_data": "{jbt_trowel_diamond:1b}"
+        }
+      }
+    }
+  }
+}

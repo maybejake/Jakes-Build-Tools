@@ -1,0 +1,1 @@
+$data modify storage jbt:trowel chosen_block set from entity @s Inventory[{Slot:$(chosen_slot)b}].id

@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name='["",{"text":"Grass Starter","italic":false}]',minecraft:custom_model_data=102209,minecraft:custom_data={"jbt_grass":true},minecraft:max_damage=10]

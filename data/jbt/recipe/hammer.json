@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "h  ",
+    "s  ",
+    "l  "
+  ],
+  "key": {
+    "h": "minecraft:heavy_core",
+    "s": "minecraft:stick",
+    "l": "minecraft:lightning_rod"
+  },
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[\"\",{\"text\":\"Hammer\",\"italic\":false}]",
+      "minecraft:custom_model_data": 102211,
+      "minecraft:max_damage": 1800,
+      "minecraft:custom_data": {"jbt_hammer":true}
+    }
+  }
+}

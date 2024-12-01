@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#minecraft:stairs",
+    "#minecraft:buttons",
+    "#minecraft:slabs",
+    "#minecraft:logs",
+    "#minecraft:fence_gates",
+    "#minecraft:trapdoors",
+    "#minecraft:signs",
+    "minecraft:basalt",
+    "minecraft:deepslate",
+    "minecraft:polished_basalt",
+    "minecraft:lever"
+  ]
+}

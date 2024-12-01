@@ -1,0 +1,1 @@
+execute if predicate jbt:bag/bag run function jbt:bag/effect

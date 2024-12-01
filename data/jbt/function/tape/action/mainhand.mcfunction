@@ -1,0 +1,2 @@
+execute unless predicate jbt:tape/open/mainhand run return run function jbt:tape/action/store/mainhand with storage jbt:tape
+execute if predicate jbt:tape/open/mainhand run function jbt:tape/action/measure/mainhand with storage jbt:tape

@@ -1,0 +1,1 @@
+give @s minecraft:iron_pickaxe[minecraft:custom_name='["",{"text":"Hammer","italic":false}]',minecraft:custom_model_data=102211,minecraft:custom_data={"jbt_hammer":true},minecraft:max_damage=1800]

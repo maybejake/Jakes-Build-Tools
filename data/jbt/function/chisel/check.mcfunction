@@ -1,0 +1,1 @@
+execute if predicate jbt:chisel/either run function jbt:chisel/effect

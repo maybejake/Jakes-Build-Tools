@@ -1,0 +1,1 @@
+$execute if items entity @s hotbar.$(chosen_slot) #minecraft:stairs run return run function jbt:chisel/block/rotation/stairs/place

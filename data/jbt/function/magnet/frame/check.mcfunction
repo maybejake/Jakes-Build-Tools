@@ -1,0 +1,3 @@
+execute if entity @s[tag=!jbt_magnet_frame] if entity @s[nbt={Item:{components:{"minecraft:custom_data":{jbt_magnet:1b}}}}] run return run tag @s add jbt_magnet_frame
+execute if entity @s[tag=jbt_magnet_frame] unless entity @s[nbt={Item:{components:{"minecraft:custom_data":{jbt_magnet:1b}}}}] run return run tag @s remove jbt_magnet_frame
+execute if entity @s[tag=!jbt_magnet_frame,nbt={Item:{count:1}}] run return run tag @s add jbt_non_magnet_frame

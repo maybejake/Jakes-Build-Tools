@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 1022095
+      }
+    },
+    "title": "Going the Distance",
+    "description": "Craft a Tape Measure",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt:tape_measure"
+      }
+    }
+  }
+}

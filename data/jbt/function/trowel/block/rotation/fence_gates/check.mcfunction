@@ -1,0 +1,1 @@
+$execute if items entity @s hotbar.$(chosen_slot) #minecraft:fence_gates run return run function jbt:trowel/block/rotation/fence_gates/place with storage jbt:trowel

@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name='["",{"text":"Iron Chisel","italic":false}]',minecraft:custom_model_data=102202,minecraft:custom_data={"jbt_chisel":true,"jbt_chisel_iron":true},minecraft:max_damage=350]

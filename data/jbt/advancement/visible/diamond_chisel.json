@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 102204
+      }
+    },
+    "title": "Redecorator",
+    "description": "Craft a Diamond Chisel",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt:visible/iron_chisel",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt:diamond_chisel"
+      }
+    }
+  }
+}

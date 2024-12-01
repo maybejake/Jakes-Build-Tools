@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name='["",{"text":"Mob Bag","italic":false}]',minecraft:custom_model_data=102207,minecraft:custom_data={"jbt_bag":true}]

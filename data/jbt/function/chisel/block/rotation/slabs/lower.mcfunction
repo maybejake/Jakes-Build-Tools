@@ -1,0 +1,1 @@
+$return run setblock ~ ~ ~ $(chosen_block)[type=bottom] destroy

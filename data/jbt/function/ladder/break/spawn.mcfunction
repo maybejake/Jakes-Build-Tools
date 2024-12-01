@@ -1,0 +1,1 @@
+execute at @s run summon minecraft:item ~ ~ ~ {Item:{components:{"minecraft:custom_model_data":1022099,"minecraft:custom_name":'{"extra":[{"italic":false,"text":"Rope Ladder"}],"text":""}',"minecraft:custom_data":{jbt_ladder:1b}},count:1,id:"minecraft:ladder"}}

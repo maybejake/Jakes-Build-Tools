@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name='["",{"text":"Experience Flask","italic":false}]',minecraft:custom_model_data=1022091,minecraft:custom_data={"jbt_flask":true}]

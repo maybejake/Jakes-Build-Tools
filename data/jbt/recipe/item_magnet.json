@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "r b",
+    "i i",
+    "ini"
+  ],
+  "key": {
+    "r": "minecraft:red_dye",
+    "b": "minecraft:blue_dye",
+    "i": "minecraft:iron_ingot",
+    "n": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "minecraft:rabbit_foot",
+    "count": 1,
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:custom_name": "[\"\",{\"text\":\"Item Magnet\",\"italic\":false}]",
+      "minecraft:custom_model_data": 1022095,
+      "minecraft:custom_data": {"jbt_magnet":true}
+    }
+  }
+}
