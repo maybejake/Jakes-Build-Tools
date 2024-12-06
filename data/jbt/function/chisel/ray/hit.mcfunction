@@ -32,8 +32,8 @@ execute if score @s jbt_chisel_slot matches ..0 run return fail
 #store slot
 execute store result storage jbt:chisel chosen_slot int 1 run scoreboard players get @s jbt_chisel_slot
 
-#check if offhand is valid
-function jbt:chisel/ray/check_slot with storage jbt:chisel
+#check if slot is valid
+function jbt:chisel/ray/check_block with storage jbt:chisel
 execute if score @s jbt_chisel_slot_check matches 0 run return fail
 
 #convert to block

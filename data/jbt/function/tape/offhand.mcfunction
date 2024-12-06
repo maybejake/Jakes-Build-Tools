@@ -1,4 +1,3 @@
 tag @s add jbt_tape_offhand
-execute unless entity @s[predicate=jbt:issneaking] at @s anchored eyes positioned ^ ^ ^ anchored feet run function jbt:tape/ray/start
-execute if entity @s[predicate=jbt:issneaking] run function jbt:tape/reset/offhand
+function jbt:tape/start
 tag @s remove jbt_tape_offhand

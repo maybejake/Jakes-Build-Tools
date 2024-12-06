@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": 1022091
+        "minecraft:custom_model_data": {"strings":["jbt:experience_flask_0"]}
       }
     },
     "title": "Keep It Secret, Keep It Safe",

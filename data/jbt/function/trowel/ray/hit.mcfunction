@@ -1,5 +1,8 @@
 scoreboard players set @s jbt_trowel_raycast_hit 1
 
+#check for entity occupying space
+execute if entity @n[type=!#jbt:raybanned,distance=..1] run return fail
+
 #choose block
 function jbt:trowel/random/start
 

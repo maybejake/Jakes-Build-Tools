@@ -9,3 +9,6 @@ execute as @e[type=minecraft:marker,tag=jbt_flask_marker,predicate=!jbt:hasvehic
 
 #ladder break check
 execute as @e[type=minecraft:armor_stand,tag=jbt_ladder_stand] at @s run function jbt:ladder/stand/check
+
+#tape selection check
+execute as @e[type=minecraft:item_display, tag=jbt_tape_selection] at @s if block ~ ~ ~ #jbt:blocks run kill @s

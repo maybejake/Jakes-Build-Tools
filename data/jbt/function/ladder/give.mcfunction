@@ -1,1 +1,1 @@
-give @s minecraft:ladder[custom_name='["",{"text":"Rope Ladder","italic":false}]',minecraft:custom_model_data=1022099,minecraft:custom_data={"jbt_ladder":true}]
+give @s minecraft:ladder[custom_name='["",{"text":"Rope Ladder","italic":false}]',minecraft:custom_model_data={"strings":["jbt:rope_ladder"]},minecraft:custom_data={"jbt_ladder":true}]

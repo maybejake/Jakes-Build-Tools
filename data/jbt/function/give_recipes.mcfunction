@@ -10,3 +10,4 @@ recipe give @s jbt:item_magnet
 recipe give @s jbt:mob_bag
 recipe give @s jbt:void_bucket
 recipe give @s jbt:rope_ladder
+recipe give @s jbt:tape_measure

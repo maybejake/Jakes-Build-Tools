@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": 102202
+        "minecraft:custom_model_data": {"strings":["jbt:iron_chisel"]}
       }
     },
     "title": "Block Replacer",

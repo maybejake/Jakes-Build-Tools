@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:ladder",
       "components": {
-        "minecraft:custom_model_data": 1022099
+        "minecraft:custom_model_data": {"strings":["jbt:rope_ladder"]}
       }
     },
     "title": "A Step Down",

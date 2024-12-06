@@ -10,6 +10,8 @@
     "minecraft:basalt",
     "minecraft:deepslate",
     "minecraft:polished_basalt",
-    "minecraft:lever"
+    "minecraft:lever",
+    "minecraft:chest",
+    "minecraft:barrel"
   ]
 }

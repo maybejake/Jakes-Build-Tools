@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:rabbit_foot",
       "components": {
-        "minecraft:custom_model_data": 1022096
+        "minecraft:custom_model_data": {"strings":["jbt:hardhat"]}
       }
     },
     "title": "OSHA Compliant",
