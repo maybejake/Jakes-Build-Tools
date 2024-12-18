@@ -1,2 +1,2 @@
 $setblock ~ ~ ~ $(chosen_block) destroy
-function jbt:chisel/block/remove_item with storage jbt:chisel
+scoreboard players set @s jbt_place_check 1
