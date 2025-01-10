@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle",
+      "components": {
+        "minecraft:custom_model_data": {"strings":["jbt:void_bundle"]}
+      }
+    },
+    "title": "Null and Void",
+    "description": "Craft a Void Bundle",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt:void_bundle"
+      }
+    }
+  }
+}

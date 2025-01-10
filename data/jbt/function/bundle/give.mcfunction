@@ -1,0 +1,1 @@
+give @s minecraft:bundle[minecraft:custom_name='["",{"text":"Void Bundle","italic":false}]',minecraft:custom_model_data={"strings":["jbt:void_bundle"]},minecraft:custom_data={"jbt_bundle":true},minecraft:food={nutrition:0,saturation:0f,eat_seconds:2147483648f,can_always_eat:true}]
