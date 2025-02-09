@@ -9,3 +9,6 @@ execute if entity @s[predicate=jbt:magnet] at @s run function jbt:magnet/effect
 
 #ladder check
 execute if score @s jbt_ladder_placed matches 1.. at @s run function jbt:ladder/check
+
+#bundle check
+execute at @s run function jbt:bundle/check

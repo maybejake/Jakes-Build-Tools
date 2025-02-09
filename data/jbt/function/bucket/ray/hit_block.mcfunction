@@ -1,10 +1,7 @@
 scoreboard players set @s jbt_bucket_raycast_hit 1
-tag @s remove jbt_bucket_ray
-
-execute unless block ~ ~ ~ #jbt:bucket/liquids run return fail
 
 playsound minecraft:block.lava.extinguish master @a ~ ~ ~ 1 2
-playsound minecraft:entity.illusioner.mirror_move master @a ~ ~-1 ~ 0.4 1.4
+playsound minecraft:entity.illusioner.mirror_move master @a ~ ~ ~ 0.4 1.4
 particle minecraft:smoke ~ ~0.4 ~ 0.3 0.3 0.3 0.01 20 force
 
 execute if block ~ ~ ~ minecraft:water run playsound minecraft:item.bucket.fill master @a ~ ~ ~ 1 1

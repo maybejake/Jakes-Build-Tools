@@ -1,2 +1,1 @@
-execute if predicate jbt:bucket/mainhand at @s anchored eyes positioned ^ ^ ^ anchored feet run return run function jbt:bucket/ray/start
-execute if predicate jbt:bucket/offhand at @s anchored eyes positioned ^ ^ ^ anchored feet run function jbt:bucket/ray/start
+execute if predicate jbt:bucket at @s anchored eyes positioned ^ ^ ^ anchored feet run function jbt:bucket/ray/start

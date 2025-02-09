@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/ladder"
+    },
+    "cases": [
+      {"when": "jbt:rope_ladder", "model": {"type": "model", "model": "item/rope_ladder"}}
+    ]
+  }
+}

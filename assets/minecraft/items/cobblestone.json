@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "block/cobblestone"
+    },
+    "cases": [
+      {"when": "jbt:selection", "model": {"type": "model", "model": "item/selection"}}
+    ]
+  }
+}

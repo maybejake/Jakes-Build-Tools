@@ -37,6 +37,11 @@
       "minecraft:piglin_brute",
       "minecraft:ender_dragon",
       "minecraft:wither",
-      "minecraft:illusioner"
+      "minecraft:illusioner",
+      "minecraft:creaking",
+      "minecraft:warden",
+      "minecraft:breeze",
+      "minecraft:end_crystal",
+      "minecraft:player"
     ]
   }

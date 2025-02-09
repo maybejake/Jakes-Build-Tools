@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/rabbit_foot"
+    },
+    "cases": [
+      {"when": "jbt:item_magnet", "model": {"type": "model", "model": "item/item_magnet"}},
+      {"when": "jbt:hardhat", "model": {"type": "model", "model": "item/hardhat"}},
+      {"when": "jbt:foreman_hardhat", "model": {"type": "model", "model": "item/foreman_hardhat"}}
+    ]
+  }
+}

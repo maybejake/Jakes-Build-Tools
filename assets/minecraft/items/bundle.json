@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/bundle"
+    },
+    "cases": [
+      {"when": "jbt:void_bundle", "model": {"type": "model", "model": "item/void_bundle"}}
+    ]
+  }
+}

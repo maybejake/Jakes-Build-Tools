@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/warped_fungus_on_a_stick"
+    },
+    "cases": [
+      {"when": "jbt:iron_trowel", "model": {"type": "model", "model": "item/iron_trowel"}},
+      {"when": "jbt:diamond_trowel", "model": {"type": "model", "model": "item/diamond_trowel"}},
+      {"when": "jbt:iron_chisel", "model": {"type": "model", "model": "item/iron_chisel"}},
+      {"when": "jbt:diamond_chisel", "model": {"type": "model", "model": "item/diamond_chisel"}},
+      {"when": "jbt:void_bucket", "model": {"type": "model", "model": "item/void_bucket"}},
+      {"when": "jbt:mob_bag_empty", "model": {"type": "model", "model": "item/mob_bag_empty"}},
+      {"when": "jbt:mob_bag_full", "model": {"type": "model", "model": "item/mob_bag_full"}},
+      {"when": "jbt:grass_starter", "model": {"type": "model", "model": "item/grass_starter"}},
+      {"when": "jbt:experience_flask_0", "model": {"type": "model", "model": "item/experience_flask_0"}},
+      {"when": "jbt:experience_flask_1", "model": {"type": "model", "model": "item/experience_flask_1"}},
+      {"when": "jbt:experience_flask_2", "model": {"type": "model", "model": "item/experience_flask_2"}},
+      {"when": "jbt:experience_flask_3", "model": {"type": "model", "model": "item/experience_flask_3"}},
+      {"when": "jbt:tape_measure_in", "model": {"type": "model", "model": "item/tape_measure_in"}},
+      {"when": "jbt:tape_measure_out", "model": {"type": "model", "model": "item/tape_measure_out"}}
+    ]
+  }
+}

@@ -66,6 +66,9 @@ scoreboard objectives remove jbt_tape_raycast_hit
 scoreboard objectives remove jbt_tape_raycast_distance
 scoreboard objectives remove jbt_tape_selection_toggle
 
+#void bundle
+scoreboard objectives remove jbt_void_bundle_cooldown
+
 #unique id
 scoreboard objectives remove global_id
 scoreboard objectives remove jbt_id

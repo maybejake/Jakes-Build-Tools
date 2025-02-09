@@ -18,16 +18,11 @@ scoreboard players reset @s jbt_trowel_damage
 scoreboard players reset @s jbt_trowel_max_damage
 scoreboard players set @s jbt_place_check 0
 
+#store inventory
+data modify storage jbt:trowel inventory set from entity @s Inventory
+
 #store valid blocks
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:0b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:1b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:2b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:3b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:4b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:5b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:6b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:7b}]
-function jbt:trowel/random/check_block with entity @s Inventory[{Slot:8b}]
+function jbt:trowel/random/check_hotbar with storage jbt:trowel
 
 #get length
 execute store result score @s jbt_trowel_block_length run data get storage jbt:trowel blocks

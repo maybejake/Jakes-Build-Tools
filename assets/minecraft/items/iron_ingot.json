@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_ingot"
+    },
+    "cases": [
+      {"when": "jbt:item_magnet", "model": {"type": "model", "model": "item/item_magnet"}}
+    ]
+  }
+}

@@ -6,6 +6,7 @@ scoreboard objectives add jbt_click_check minecraft.used:minecraft.warped_fungus
 #bag
 scoreboard objectives add jbt_bag_raycast_hit dummy
 scoreboard objectives add jbt_bag_raycast_distance dummy
+scoreboard objectives add jbt_bag_cooldown dummy
 
 #grass starter
 scoreboard objectives add jbt_grass_raycast_hit dummy
@@ -57,6 +58,7 @@ scoreboard objectives add jbt_flask_orb_z dummy
 scoreboard objectives add jbt_ladder_raycast_hit dummy
 scoreboard objectives add jbt_ladder_raycast_distance dummy
 scoreboard objectives add jbt_ladder_max dummy
+scoreboard objectives add jbt_ladder_number dummy
 scoreboard objectives add jbt_ladder_place_timer dummy
 scoreboard objectives add jbt_ladder_break_timer dummy
 scoreboard objectives add jbt_ladder_placed minecraft.used:minecraft.ladder
@@ -65,6 +67,9 @@ scoreboard objectives add jbt_ladder_placed minecraft.used:minecraft.ladder
 scoreboard objectives add jbt_tape_raycast_hit dummy
 scoreboard objectives add jbt_tape_raycast_distance dummy
 scoreboard objectives add jbt_tape_selection_toggle dummy
+
+#void bundle
+scoreboard objectives add jbt_void_bundle_cooldown dummy
 
 #enable selections
 execute unless score jbt jbt_tape_selection_toggle matches 0..1 run scoreboard players set jbt jbt_tape_selection_toggle 1
@@ -90,6 +95,9 @@ scoreboard objectives add jbt_reach_hammer dummy
 
 #load chunk
 execute in minecraft:overworld run forceload add -20000000 100 -20000000 100
+
+#create chest
+execute in minecraft:overworld unless block -20000000 -64 99 minecraft:chest run setblock -20000000 -64 99 minecraft:chest
 
 #start tick
 schedule clear jbt:tick_20
