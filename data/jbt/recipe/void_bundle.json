@@ -15,7 +15,7 @@
     "id": "minecraft:bundle",
     "count": 1,
     "components": {
-      "minecraft:custom_name": "[\"\",{\"text\":\"Void Bundle\",\"italic\":false}]",
+      "minecraft:custom_name": ["",{"translate":"jbt:bundle","fallback":"Void Bundle","italic":false}],
       "minecraft:custom_model_data": {"strings":["jbt:void_bundle"]},
       "minecraft:custom_data": {"jbt_bundle":true}
     }

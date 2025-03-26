@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:grass_starter"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:grass_starter"
+          ]
+        }
       }
     },
-    "title": "A Green New World",
-    "description": "Craft a Grass Starter",
+    "title": {
+      "translate": "jbt:adv_grass_starter_title",
+      "fallback": "A Green New World"
+    },
+    "description": {
+      "translate": "jbt:adv_grass_starter_desc",
+      "fallback": "Craft a Grass Starter"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

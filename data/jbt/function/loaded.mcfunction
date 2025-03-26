@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Jake\'s Build Tools","color":"gold","bold":true}," loaded!"]
+tellraw @a ["",{"text":"Jake's Build Tools ","color":"gold","bold":true},{"translate":"jbt:loaded","fallback":"loaded!","color":"white","bold":false}]
 
 #click check
 scoreboard objectives add jbt_click_check minecraft.used:minecraft.warped_fungus_on_a_stick
@@ -71,6 +71,14 @@ scoreboard objectives add jbt_tape_selection_toggle dummy
 #void bundle
 scoreboard objectives add jbt_void_bundle_cooldown dummy
 
+#wrench
+scoreboard objectives add jbt_wrench_raycast_hit dummy
+scoreboard objectives add jbt_wrench_raycast_distance dummy
+scoreboard objectives add jbt_wrench_unbreaking_check dummy
+scoreboard objectives add jbt_wrench_unbreaking_chance dummy
+scoreboard objectives add jbt_wrench_damage dummy
+scoreboard objectives add jbt_wrench_max_damage dummy
+
 #enable selections
 execute unless score jbt jbt_tape_selection_toggle matches 0..1 run scoreboard players set jbt jbt_tape_selection_toggle 1
 
@@ -92,6 +100,15 @@ scoreboard objectives add jbt_half dummy
 scoreboard objectives add jbt_reach dummy
 scoreboard objectives add jbt_reach_tools dummy
 scoreboard objectives add jbt_reach_hammer dummy
+
+#tile drops
+scoreboard objectives add jbt_tile_drops dummy
+
+#block check
+scoreboard objectives add jbt_block_found_check dummy
+
+#rotation
+scoreboard objectives add jbt_rotation dummy
 
 #load chunk
 execute in minecraft:overworld run forceload add -20000000 100 -20000000 100

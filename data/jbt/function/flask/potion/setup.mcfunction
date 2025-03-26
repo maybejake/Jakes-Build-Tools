@@ -9,6 +9,7 @@ execute as @e[type=minecraft:marker,tag=jbt_flask_marker_new,sort=nearest,limit=
 
 tag @s add jbt_flask_projectile
 execute positioned 0.0 0.0 0.0 positioned ^ ^ ^1 summon minecraft:area_effect_cloud run data modify entity @e[tag=jbt_flask_projectile,limit=1] Motion set from entity @s Pos
+execute positioned 0.0 0.0 0.0 run kill @n[type=minecraft:area_effect_cloud,distance=..1]
 tag @s remove jbt_flask_projectile
 
 tag @s add jbt_flask_fix

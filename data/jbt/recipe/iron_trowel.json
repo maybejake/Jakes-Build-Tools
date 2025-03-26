@@ -13,7 +13,7 @@
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_name": "[\"\",{\"text\":\"Iron Trowel\",\"italic\":false}]",
+      "minecraft:custom_name": ["",{"translate":"jbt:iron_trowel","fallback":"Iron Trowel","italic":false}],
       "minecraft:custom_model_data": {"strings":["jbt:iron_trowel"]},
       "minecraft:max_damage": 750,
       "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_iron":true}

@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"Jake\'s Build Tools","color":"gold","bold":true}," uninstalled!"]
+tellraw @a ["",{"text":"Jake's Build Tools","color":"gold","bold":true}," uninstalled!"]
 
 #click check
 scoreboard objectives remove jbt_click_check
@@ -69,6 +69,14 @@ scoreboard objectives remove jbt_tape_selection_toggle
 #void bundle
 scoreboard objectives remove jbt_void_bundle_cooldown
 
+#wrench
+scoreboard objectives remove jbt_wrench_raycast_hit
+scoreboard objectives remove jbt_wrench_raycast_distance
+scoreboard objectives remove jbt_wrench_unbreaking_check
+scoreboard objectives remove jbt_wrench_unbreaking_chance
+scoreboard objectives remove jbt_wrench_damage
+scoreboard objectives remove jbt_wrench_max_damage
+
 #unique id
 scoreboard objectives remove global_id
 scoreboard objectives remove jbt_id
@@ -86,6 +94,15 @@ scoreboard objectives remove jbt_half
 #reach
 scoreboard objectives remove jbt_reach
 scoreboard objectives remove jbt_reach_tools
+
+#tile drops
+scoreboard objectives remove jbt_tile_drops
+
+#block check
+scoreboard objectives remove jbt_block_found_check
+
+#rotation
+scoreboard objectives remove jbt_rotation
 
 #clear storage
 data remove storage jbt:trowel inventory

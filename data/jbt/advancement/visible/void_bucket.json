@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:void_bucket"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:void_bucket"
+          ]
+        }
       }
     },
-    "title": "Unfillable",
-    "description": "Craft a Void Bucket",
+    "title": {
+      "translate": "jbt:adv_void_bucket_title",
+      "fallback": "Unfillable"
+    },
+    "description": {
+      "translate": "jbt:adv_void_bucket_desc",
+      "fallback": "Craft a Void Bucket"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

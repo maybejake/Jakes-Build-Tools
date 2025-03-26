@@ -1,0 +1,1 @@
+$execute align xyz run particle minecraft:block{block_state:{Name:"$(block)"}} ~0.5 ~0.5 ~0.5 0.31 0.31 0.31 0 25 force

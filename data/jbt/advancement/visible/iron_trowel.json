@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:iron_trowel"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:iron_trowel"
+          ]
+        }
       }
     },
-    "title": "Texturing Made Easy",
-    "description": "Craft an Iron Trowel",
+    "title": {
+      "translate": "jbt:adv_iron_trowel_title",
+      "fallback": "Texturing Made Easy"
+    },
+    "description": {
+      "translate": "jbt:adv_iron_trowel_desc",
+      "fallback": "Craft an Iron Trowel"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:tape_measure_in"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:tape_measure_in"
+          ]
+        }
       }
     },
-    "title": "Going the Distance",
-    "description": "Craft a Tape Measure",
+    "title": {
+      "translate": "jbt:adv_tape_measure_title",
+      "fallback": "Going the Distance"
+    },
+    "description": {
+      "translate": "jbt:adv_tape_measure_desc",
+      "fallback": "Craft a Tape Measure"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

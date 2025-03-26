@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:diamond_trowel"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:diamond_trowel"
+          ]
+        }
       }
     },
-    "title": "Texturing Made Easier",
-    "description": "Craft a Diamond Trowel",
+    "title": {
+      "translate": "jbt:adv_diamond_trowel_title",
+      "fallback": "Texturing Made Easier"
+    },
+    "description": {
+      "translate": "jbt:adv_diamond_trowel_desc",
+      "fallback": "Craft a Diamond Trowel"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

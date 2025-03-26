@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:bundle",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:void_bundle"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:void_bundle"
+          ]
+        }
       }
     },
-    "title": "Null and Void",
-    "description": "Craft a Void Bundle",
+    "title": {
+      "translate": "jbt:adv_void_bundle_title",
+      "fallback": "Null and Void"
+    },
+    "description": {
+      "translate": "jbt:adv_void_bundle_desc",
+      "fallback": "Craft a Void Bundle"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

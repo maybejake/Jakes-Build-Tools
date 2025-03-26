@@ -20,7 +20,8 @@
       {"when": "jbt:experience_flask_2", "model": {"type": "model", "model": "item/experience_flask_2"}},
       {"when": "jbt:experience_flask_3", "model": {"type": "model", "model": "item/experience_flask_3"}},
       {"when": "jbt:tape_measure_in", "model": {"type": "model", "model": "item/tape_measure_in"}},
-      {"when": "jbt:tape_measure_out", "model": {"type": "model", "model": "item/tape_measure_out"}}
+      {"when": "jbt:tape_measure_out", "model": {"type": "model", "model": "item/tape_measure_out"}},
+      {"when": "jbt:wrench", "model": {"type": "model", "model": "item/wrench"}}
     ]
   }
 }

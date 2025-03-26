@@ -3,9 +3,15 @@
     "icon": {
       "id": "minecraft:netherite_block"
     },
-    "title": "Master Builder",
+    "title": {
+      "translate": "jbt:adv_break_trowel_title",
+      "fallback": "Master Builder"
+    },
     "frame": "challenge",
-    "description": "Break a Diamond Trowel enchanted with Unbreaking III",
+    "description": {
+      "translate": "jbt:adv_break_trowel_desc",
+      "fallback": "Break a Diamond Trowel enchanted with Unbreaking III"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -17,6 +23,6 @@
     }
   },
   "rewards": {
-      "function": "jbt:hardhat/give_rare"
+    "function": "jbt:hardhat/give_rare"
   }
 }

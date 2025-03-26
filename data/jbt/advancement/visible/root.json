@@ -1,21 +1,27 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:warped_fungus_on_a_stick",
-        "components": {
-          "minecraft:custom_model_data": {"strings":["jbt:iron_trowel"]}
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:iron_trowel"
+          ]
         }
-      },
-      "title": "Jake's Build Tools",
-      "description": "Tools to make building easy!",
-      "background": "minecraft:textures/block/stone_bricks.png",
-      "show_toast": false,
-      "announce_to_chat": false
-    },
-    "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
       }
+    },
+    "title": "Jake's Build Tools",
+    "description": {
+      "translate": "jbt:adv_root_desc",
+      "fallback": "Tools to make building easy!"
+    },
+    "background": "minecraft:block/stone_bricks",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
   }
-  
+}

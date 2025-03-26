@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:iron_ingot",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:item_magnet"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:item_magnet"
+          ]
+        }
       }
     },
-    "title": "Attractive Personality",
-    "description": "Craft an Item Magnet",
+    "title": {
+      "translate": "jbt:adv_item_magnet_title",
+      "fallback": "Attractive Personality"
+    },
+    "description": {
+      "translate": "jbt:adv_item_magnet_desc",
+      "fallback": "Craft an Item Magnet"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -2,5 +2,7 @@
     "minecraft:lava",
     "minecraft:water",
     "minecraft:lava_cauldron",
-    "minecraft:water_cauldron"
+    "minecraft:water_cauldron",
+    "minecraft:powder_snow",
+    "minecraft:powder_snow_cauldron"
 ]}

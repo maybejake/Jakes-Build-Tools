@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name=["",{"translate":"jbt:wrench","fallback":"Block Wrench","italic":false}],minecraft:custom_model_data={"strings":["jbt:wrench"]},minecraft:custom_data={"jbt_wrench":true},minecraft:max_damage=5000]

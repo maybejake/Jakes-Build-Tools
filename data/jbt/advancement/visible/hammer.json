@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:iron_pickaxe",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:hammer"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:hammer"
+          ]
+        }
       }
     },
-    "title": "This Is Not a Drill",
-    "description": "Craft a Hammer",
+    "title": {
+      "translate": "jbt:adv_hammer_title",
+      "fallback": "This Is Not a Drill"
+    },
+    "description": {
+      "translate": "jbt:adv_hammer_desc",
+      "fallback": "Craft a Hammer"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

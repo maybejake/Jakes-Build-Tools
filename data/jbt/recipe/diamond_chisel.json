@@ -13,7 +13,7 @@
     "id": "minecraft:warped_fungus_on_a_stick",
     "count": 1,
     "components": {
-      "minecraft:custom_name": "[\"\",{\"text\":\"Diamond Chisel\",\"italic\":false}]",
+      "minecraft:custom_name": ["",{"translate":"jbt:diamond_chisel","fallback":"Diamond Chisel","italic":false}],
       "minecraft:custom_model_data": {"strings":["jbt:diamond_chisel"]},
       "minecraft:max_damage": 2100,
       "minecraft:custom_data": {"jbt_chisel":true,"jbt_chisel_diamond":true}

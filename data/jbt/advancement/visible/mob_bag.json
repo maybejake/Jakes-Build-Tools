@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:mob_bag_empty"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:mob_bag_empty"
+          ]
+        }
       }
     },
-    "title": "Like a Lasso",
-    "description": "Craft a Mob Bag",
+    "title": {
+      "translate": "jbt:adv_mob_bag_title",
+      "fallback": "Like a Lasso"
+    },
+    "description": {
+      "translate": "jbt:adv_mob_bag_desc",
+      "fallback": "Craft a Mob Bag"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:iron_chisel"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:iron_chisel"
+          ]
+        }
       }
     },
-    "title": "Block Replacer",
-    "description": "Craft an Iron Chisel",
+    "title": {
+      "translate": "jbt:adv_iron_chisel_title",
+      "fallback": "Block Replacer"
+    },
+    "description": {
+      "translate": "jbt:adv_iron_chisel_desc",
+      "fallback": "Craft an Iron Chisel"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

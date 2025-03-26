@@ -14,3 +14,4 @@ function jbt:grass/check
 function jbt:bucket/check
 function jbt:flask/check
 function jbt:tape/check
+function jbt:wrench/check

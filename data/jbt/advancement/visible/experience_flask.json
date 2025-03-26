@@ -3,11 +3,21 @@
     "icon": {
       "id": "minecraft:warped_fungus_on_a_stick",
       "components": {
-        "minecraft:custom_model_data": {"strings":["jbt:experience_flask_0"]}
+        "minecraft:custom_model_data": {
+          "strings": [
+            "jbt:experience_flask_0"
+          ]
+        }
       }
     },
-    "title": "Keep It Secret, Keep It Safe",
-    "description": "Craft an Experience Flask",
+    "title": {
+      "translate": "jbt:adv_experience_flask_title",
+      "fallback": "Keep It Secret, Keep It Safe"
+    },
+    "description": {
+      "translate": "jbt:adv_experience_flask_desc",
+      "fallback": "Craft an Experience Flask"
+    },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
