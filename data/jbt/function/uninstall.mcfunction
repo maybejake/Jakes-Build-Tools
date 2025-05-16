@@ -53,6 +53,8 @@ scoreboard objectives remove jbt_flask_marker_repeat
 scoreboard objectives remove jbt_flask_orb_x
 scoreboard objectives remove jbt_flask_orb_y
 scoreboard objectives remove jbt_flask_orb_z
+scoreboard objectives remove jbt_flask_level_check
+scoreboard objectives remove jbt_flask_point_check
 
 #rope ladder
 scoreboard objectives remove jbt_ladder_raycast_hit
@@ -105,6 +107,9 @@ scoreboard objectives remove jbt_block_found_check
 
 #rotation
 scoreboard objectives remove jbt_rotation
+
+#update trigger
+scoreboard objectives remove jbt_update_item
 
 #clear storage
 data remove storage jbt:trowel inventory

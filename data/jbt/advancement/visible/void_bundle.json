@@ -3,11 +3,7 @@
     "icon": {
       "id": "minecraft:bundle",
       "components": {
-        "minecraft:custom_model_data": {
-          "strings": [
-            "jbt:void_bundle"
-          ]
-        }
+        "minecraft:item_model": "jbt:void_bundle"
       }
     },
     "title": {

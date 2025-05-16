@@ -12,3 +12,6 @@ execute if score @s jbt_ladder_placed matches 1.. at @s run function jbt:ladder/
 
 #bundle check
 execute at @s run function jbt:bundle/check
+
+scoreboard players enable @s jbt_update_item
+execute unless score @s jbt_update_item matches 0 run function jbt:update_item/main

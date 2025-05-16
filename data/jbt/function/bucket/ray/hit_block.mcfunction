@@ -1,5 +1,8 @@
 scoreboard players set @s jbt_bucket_raycast_hit 1
 
+#arbitrarily modify the item data to make it look like its moving
+function jbt:bucket/modify
+
 playsound minecraft:block.lava.extinguish master @a ~ ~ ~ 1 2
 playsound minecraft:entity.illusioner.mirror_move master @a ~ ~ ~ 0.4 1.4
 particle minecraft:smoke ~ ~0.4 ~ 0.3 0.3 0.3 0.01 20 force

@@ -1,1 +1,1 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:custom_name=["",{"translate":"jbt:bag","fallback":"Mob Bag","italic":false}],minecraft:custom_model_data={strings:["jbt:mob_bag_empty"]},minecraft:custom_data={"jbt_bag":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]
+give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:bag","fallback":"Mob Bag"},minecraft:item_model="jbt:mob_bag_empty",minecraft:custom_data={"jbt_bag":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]

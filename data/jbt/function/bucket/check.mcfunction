@@ -1,1 +1,0 @@
-execute if predicate jbt:bucket at @s anchored eyes positioned ^ ^ ^ anchored feet run function jbt:bucket/ray/start

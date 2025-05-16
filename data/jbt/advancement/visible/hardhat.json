@@ -3,11 +3,7 @@
     "icon": {
       "id": "minecraft:rabbit_foot",
       "components": {
-        "minecraft:custom_model_data": {
-          "strings": [
-            "jbt:hardhat"
-          ]
-        }
+        "minecraft:item_model": "jbt:hardhat"
       }
     },
     "title": {

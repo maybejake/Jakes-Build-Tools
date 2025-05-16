@@ -53,6 +53,8 @@ scoreboard objectives add jbt_flask_marker_repeat dummy
 scoreboard objectives add jbt_flask_orb_x dummy
 scoreboard objectives add jbt_flask_orb_y dummy
 scoreboard objectives add jbt_flask_orb_z dummy
+scoreboard objectives add jbt_flask_level_check dummy
+scoreboard objectives add jbt_flask_point_check dummy
 
 #rope ladder
 scoreboard objectives add jbt_ladder_raycast_hit dummy
@@ -108,6 +110,9 @@ scoreboard objectives add jbt_block_found_check dummy
 
 #rotation
 scoreboard objectives add jbt_rotation dummy
+
+#update trigger
+scoreboard objectives add jbt_update_item trigger
 
 #load chunk
 execute in minecraft:overworld run forceload add -20000000 100 -20000000 100
