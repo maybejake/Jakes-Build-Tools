@@ -1,4 +1,5 @@
 {
+   "id": "jakes-build-tools",
    "pack":{
       "pack_format":55,
       "description":"Tools to make building easy!"

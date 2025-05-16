@@ -6,6 +6,7 @@ scoreboard objectives remove jbt_click_check
 #bag
 scoreboard objectives remove jbt_bag_raycast_hit
 scoreboard objectives remove jbt_bag_raycast_distance
+scoreboard objectives remove jbt_bag_cooldown
 
 #grass starter
 scoreboard objectives remove jbt_grass_raycast_hit
@@ -60,6 +61,7 @@ scoreboard objectives remove jbt_ladder_max
 scoreboard objectives remove jbt_ladder_place_timer
 scoreboard objectives remove jbt_ladder_break_timer
 scoreboard objectives remove jbt_ladder_placed
+scoreboard objectives remove jbt_ladder_number
 
 #measuring tape
 scoreboard objectives remove jbt_tape_raycast_hit
@@ -78,7 +80,6 @@ scoreboard objectives remove jbt_wrench_damage
 scoreboard objectives remove jbt_wrench_max_damage
 
 #unique id
-scoreboard objectives remove global_id
 scoreboard objectives remove jbt_id
 scoreboard objectives remove score_storage
 
@@ -94,6 +95,7 @@ scoreboard objectives remove jbt_half
 #reach
 scoreboard objectives remove jbt_reach
 scoreboard objectives remove jbt_reach_tools
+scoreboard objectives remove jbt_reach_hammer
 
 #tile drops
 scoreboard objectives remove jbt_tile_drops
@@ -113,12 +115,15 @@ data remove storage jbt:trowel chosen_slot
 data remove storage jbt:trowel chosen_block
 data remove storage jbt:trowel damage
 data remove storage jbt:trowel components
+
 data remove storage jbt:grass damage
 data remove storage jbt:grass components
+
 data remove storage jbt:chisel chosen_block
 data remove storage jbt:chisel chosen_slot
 data remove storage jbt:chisel damage
 data remove storage jbt:chisel components
+
 data remove storage jbt:flask flask_points
 data remove storage jbt:flask player_points
 data remove storage jbt:flask player_levels
@@ -126,12 +131,18 @@ data remove storage jbt:flask value
 data remove storage jbt:flask orbx
 data remove storage jbt:flask orby
 data remove storage jbt:flask orbz
-data remove storage jbt:flask flaks_levels
+data remove storage jbt:flask flask_levels
+
 data remove storage jbt:tape x
 data remove storage jbt:tape y
 data remove storage jbt:tape z
 data remove storage jbt:tape id
 data remove storage jbt:tape dimensions
+
+data remove storage jbt:bundle slot
+data remove storage jbt:bundle temp_item
+
+data remove storage jbt:wrench block
 
 #remove selection entities
 function jbt:clear_tape_selections

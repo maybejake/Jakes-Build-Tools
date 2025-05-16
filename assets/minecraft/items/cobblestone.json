@@ -7,7 +7,7 @@
       "model": "block/cobblestone"
     },
     "cases": [
-      {"when": "jbt:selection", "model": {"type": "model", "model": "item/selection"}}
+      {"when": "jbt:selection", "model": {"type": "model", "model": "jbt:item/selection"}}
     ]
   }
 }

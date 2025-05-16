@@ -1,14 +1,8 @@
-#reset
-scoreboard objectives remove temp
-scoreboard objectives add temp dummy
+execute unless block ~0.06 ~ ~ #jbt:blocks run scoreboard players set @s jbt_side 4
+execute unless block ~-0.06 ~ ~ #jbt:blocks run scoreboard players set @s jbt_side 3
+execute unless block ~ ~0.06 ~ #jbt:blocks run scoreboard players set @s jbt_side 6
+execute unless block ~ ~-0.06 ~ #jbt:blocks run scoreboard players set @s jbt_side 5
+execute unless block ~ ~ ~0.06 #jbt:blocks run scoreboard players set @s jbt_side 2
+execute unless block ~ ~ ~-0.06 #jbt:blocks run scoreboard players set @s jbt_side 1
 
-#store values
-execute summon minecraft:marker run function jbt:side/store
-
-#north=1 south=2 west=3 east=4 down=5 up=6
-execute if score $pos2 temp matches ..2 run return run function jbt:side/sides/north
-execute if score $pos2 temp matches 47.. run return run function jbt:side/sides/south
-execute if score $pos0 temp matches ..2 run return run function jbt:side/sides/west
-execute if score $pos0 temp matches 47.. run return run function jbt:side/sides/east
-execute if score $pos1 temp matches ..2 run return run function jbt:side/sides/down
-execute if score $pos1 temp matches 47.. run return run function jbt:side/sides/up
+execute store result score @s jbt_half summon minecraft:marker run function jbt:side/half

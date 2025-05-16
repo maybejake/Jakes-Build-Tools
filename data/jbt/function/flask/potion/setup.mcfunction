@@ -3,7 +3,7 @@ execute if score @s jbt_flask_player_levels matches ..16 run data modify entity 
 execute if score @s jbt_flask_player_levels matches 17..31 run data modify entity @s Item set value {count:1,id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_model_data":{"strings":["jbt:experience_flask_2"]},"enchantment_glint_override":true}}
 execute if score @s jbt_flask_player_levels matches 32.. run data modify entity @s Item set value {count:1,id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_model_data":{"strings":["jbt:experience_flask_3"]},"enchantment_glint_override":true}}
 
-summon minecraft:marker ~ ~ ~ {Tags:["jbt_flask_marker","jbt_flask_marker_new"]}
+summon minecraft:marker ~ ~ ~ {Tags:["jbt_flask_marker","jbt_flask_marker_new","smithed.entity","smithed.strict"]}
 ride @e[type=minecraft:marker,tag=jbt_flask_marker_new,sort=nearest,limit=1] mount @s
 execute as @e[type=minecraft:marker,tag=jbt_flask_marker_new,sort=nearest,limit=1] run function jbt:flask/potion/marker/setup
 

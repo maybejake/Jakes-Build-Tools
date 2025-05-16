@@ -16,7 +16,7 @@
       "minecraft:custom_name": ["",{"translate":"jbt:diamond_chisel","fallback":"Diamond Chisel","italic":false}],
       "minecraft:custom_model_data": {"strings":["jbt:diamond_chisel"]},
       "minecraft:max_damage": 2100,
-      "minecraft:custom_data": {"jbt_chisel":true,"jbt_chisel_diamond":true}
+      "minecraft:custom_data": {"jbt_chisel":true,"jbt_chisel_diamond":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
     }
   }
 }

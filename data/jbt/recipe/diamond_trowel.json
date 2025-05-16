@@ -16,7 +16,7 @@
       "minecraft:custom_name": ["",{"translate":"jbt:diamond_trowel","fallback":"Diamond Trowel","italic":false}],
       "minecraft:custom_model_data": {"strings":["jbt:diamond_trowel"]},
       "minecraft:max_damage": 4500,
-      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_diamond":true}
+      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_diamond":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
     }
   }
 }

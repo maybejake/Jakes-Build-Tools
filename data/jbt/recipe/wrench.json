@@ -16,7 +16,7 @@
       "minecraft:custom_name": ["",{"translate":"jbt:wrench","fallback":"Block Wrench","italic":false}],
       "minecraft:custom_model_data": {"strings":["jbt:wrench"]},
       "minecraft:max_damage": 5000,
-      "minecraft:custom_data": {"jbt_wrench":true}
+      "minecraft:custom_data": {"jbt_wrench":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
     }
   }
 }

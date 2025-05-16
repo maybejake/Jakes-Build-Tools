@@ -83,7 +83,6 @@ scoreboard objectives add jbt_wrench_max_damage dummy
 execute unless score jbt jbt_tape_selection_toggle matches 0..1 run scoreboard players set jbt jbt_tape_selection_toggle 1
 
 #unique id
-scoreboard objectives add global_id dummy
 scoreboard objectives add jbt_id dummy
 scoreboard objectives add score_storage dummy
 

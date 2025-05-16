@@ -3,4 +3,4 @@ scoreboard players add @n[type=minecraft:armor_stand,tag=jbt_ladder_stand_new] j
 
 function jbt:ladder/place/check
 
-execute if block ~ ~-1 ~ #jbt:ladder if score @s jbt_ladder_max matches 0.. positioned ~ ~-1 ~ run function jbt:ladder/loop
+execute if block ~ ~-1 ~ #jbt:ladder if score @s jbt_ladder_max matches 1.. positioned ~ ~-1 ~ run function jbt:ladder/loop

@@ -1,1 +1,1 @@
-$return run setblock ~ ~ ~ $(chosen_block)[type=top] destroy
+$return run setblock ~ ~ ~ $(block)[type=top] destroy

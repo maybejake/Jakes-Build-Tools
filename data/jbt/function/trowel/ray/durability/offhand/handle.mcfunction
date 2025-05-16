@@ -3,7 +3,7 @@ execute if entity @s[predicate=jbt:unbreaking/offhand/all] run function jbt:trow
 execute if score @s jbt_trowel_unbreaking_check matches 1 run return fail
 
 #handle damage
-data modify storage jbt:trowel components set from entity @s Inventory[{Slot:-106b}].components
+data modify storage jbt:trowel components set from entity @s equipment.offhand.components
 execute store result score @s jbt_trowel_damage run data get storage jbt:trowel components."minecraft:damage"
 execute store result score @s jbt_trowel_max_damage run data get storage jbt:trowel components."minecraft:max_damage"
 scoreboard players add @s jbt_trowel_damage 1

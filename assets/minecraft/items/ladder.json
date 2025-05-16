@@ -7,7 +7,7 @@
       "model": "item/ladder"
     },
     "cases": [
-      {"when": "jbt:rope_ladder", "model": {"type": "model", "model": "item/rope_ladder"}}
+      {"when": "jbt:rope_ladder", "model": {"type": "model", "model": "jbt:item/rope_ladder"}}
     ]
   }
 }

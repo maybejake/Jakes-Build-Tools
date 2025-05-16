@@ -13,7 +13,7 @@ scoreboard players reset @s jbt_grass_max_damage
 
 #store damage
 execute if entity @s[tag=jbt_grass_mainhand] run data modify storage jbt:grass components set from entity @s SelectedItem.components
-execute if entity @s[tag=jbt_grass_offhand] run data modify storage jbt:grass components set from entity @s Inventory[{Slot:-106b}].components
+execute if entity @s[tag=jbt_grass_offhand] run data modify storage jbt:grass components set from entity @s equipment.offhand.components
 execute store result score @s jbt_grass_damage run data get storage jbt:grass components."minecraft:damage"
 execute store result score @s jbt_grass_max_damage run data get storage jbt:grass components."minecraft:max_damage"
 

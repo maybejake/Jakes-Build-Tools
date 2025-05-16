@@ -7,7 +7,7 @@
       "model": "item/bundle"
     },
     "cases": [
-      {"when": "jbt:void_bundle", "model": {"type": "model", "model": "item/void_bundle"}}
+      {"when": "jbt:void_bundle", "model": {"type": "model", "model": "jbt:item/void_bundle"}}
     ]
   }
 }

@@ -7,7 +7,7 @@
       "model": "item/iron_ingot"
     },
     "cases": [
-      {"when": "jbt:item_magnet", "model": {"type": "model", "model": "item/item_magnet"}}
+      {"when": "jbt:item_magnet", "model": {"type": "model", "model": "jbt:item/item_magnet"}}
     ]
   }
 }

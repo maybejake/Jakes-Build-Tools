@@ -3,7 +3,7 @@ execute if entity @s[predicate=jbt:unbreaking/offhand/all] run function jbt:wren
 execute if score @s jbt_wrench_unbreaking_check matches 1 run return fail
 
 #handle damage
-data modify storage jbt:wrench components set from entity @s Inventory[{Slot:-106b}].components
+data modify storage jbt:wrench components set from entity @s equipment.offhand.components
 execute store result score @s jbt_wrench_damage run data get storage jbt:wrench components."minecraft:damage"
 execute store result score @s jbt_wrench_max_damage run data get storage jbt:wrench components."minecraft:max_damage"
 scoreboard players add @s jbt_wrench_damage 1

@@ -1,5 +1,3 @@
-$data modify storage jbt:rotation chosen_slot set value $(chosen_slot)
-$data modify storage jbt:rotation chosen_block set value "$(chosen_block)"
 $data modify storage jbt:rotation block set value "$(chosen_block)"
 execute unless score @s jbt_side matches 1.. run function jbt:side/get
 function jbt:direction/get
