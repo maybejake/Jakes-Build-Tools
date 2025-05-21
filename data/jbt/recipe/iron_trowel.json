@@ -16,7 +16,8 @@
       "minecraft:item_name": {"translate":"jbt:iron_trowel","fallback":"Iron Trowel"},
       "minecraft:item_model": "jbt:iron_trowel",
       "minecraft:max_damage": 750,
-      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:repairable": {"items":"minecraft:iron_ingot"}
     }
   }
 }

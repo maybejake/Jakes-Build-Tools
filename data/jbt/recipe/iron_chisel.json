@@ -16,7 +16,8 @@
       "minecraft:item_name": {"translate":"jbt:iron_chisel","fallback":"Iron Chisel"},
       "minecraft:item_model": "jbt:iron_chisel",
       "minecraft:max_damage": 350,
-      "minecraft:custom_data": {"jbt_chisel":true,"jbt_chisel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+      "minecraft:custom_data": {"jbt_chisel":true,"jbt_chisel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:repairable": {"items":"minecraft:iron_ingot"}
     }
   }
 }

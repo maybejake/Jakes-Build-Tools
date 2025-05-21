@@ -6,6 +6,7 @@ execute if block ~ ~ ~ #jbt:unbreakable run return fail
 #clear storage
 data remove storage jbt:chisel chosen_block
 data remove storage jbt:chisel chosen_slot
+data remove storage jbt:chisel chosen_item
 data remove storage jbt:chisel damage
 data remove storage jbt:chisel components
 

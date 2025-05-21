@@ -18,7 +18,8 @@
       "minecraft:item_name": {"translate":"jbt:hammer","fallback":"Hammer"},
       "minecraft:item_model": "jbt:hammer",
       "minecraft:max_damage": 1800,
-      "minecraft:custom_data": {"jbt_hammer":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+      "minecraft:custom_data": {"jbt_hammer":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:repairable": {"items":"minecraft:copper_ingot"}
     }
   }
 }

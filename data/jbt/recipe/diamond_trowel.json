@@ -16,7 +16,8 @@
       "minecraft:item_name": {"translate":"jbt:diamond_trowel","fallback":"Diamond Trowel"},
       "minecraft:item_model": "jbt:diamond_trowel",
       "minecraft:max_damage": 4500,
-      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_diamond":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_diamond":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:repairable": {"items":"minecraft:diamond"}
     }
   }
 }

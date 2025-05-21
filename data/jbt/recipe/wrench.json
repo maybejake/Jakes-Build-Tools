@@ -16,7 +16,8 @@
       "minecraft:item_name": {"translate":"jbt:wrench","fallback":"Block Wrench"},
       "minecraft:item_model": "jbt:wrench",
       "minecraft:max_damage": 5000,
-      "minecraft:custom_data": {"jbt_wrench":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+      "minecraft:custom_data": {"jbt_wrench":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:repairable": {"items":"minecraft:iron_ingot"}
     }
   }
 }

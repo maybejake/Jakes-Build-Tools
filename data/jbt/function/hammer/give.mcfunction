@@ -1,1 +1,1 @@
-give @s minecraft:iron_pickaxe[minecraft:item_name={"translate":"jbt:hammer","fallback":"Hammer"},minecraft:item_model="jbt:hammer",minecraft:custom_data={"jbt_hammer":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:max_damage=1800]
+give @s minecraft:iron_pickaxe[minecraft:item_name={"translate":"jbt:hammer","fallback":"Hammer"},minecraft:item_model="jbt:hammer",minecraft:custom_data={"jbt_hammer":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:max_damage=1800,minecraft:repairable={items:"minecraft:copper_ingot"}]
