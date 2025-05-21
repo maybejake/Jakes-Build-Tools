@@ -49,5 +49,11 @@
     "minecraft:cave_vines",
     "minecraft:cave_vines_plant",
     "#minecraft:fire",
-    "minecraft:snow"
+    "minecraft:snow",
+    "minecraft:firefly_bush",
+    "minecraft:bush",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass",
+    "minecraft:light"
 ]}

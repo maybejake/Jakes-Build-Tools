@@ -59,5 +59,15 @@
     "minecraft:soul_torch",
     "minecraft:redstone_wall_torch",
     "minecraft:wall_torch",
-    "minecraft:soul_wall_torch"
+    "minecraft:soul_wall_torch",
+    "#minecraft:buttons",
+    "minecraft:lever",
+    "#minecraft:inside_step_sound_blocks",
+    "minecraft:firefly_bush",
+    "minecraft:bush",
+    "minecraft:cactus_flower",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass",
+    "minecraft:light",
+    "#minecraft:wool_carpets"
 ]}

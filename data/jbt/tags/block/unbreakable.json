@@ -11,5 +11,6 @@
     "minecraft:nether_portal",
     "minecraft:reinforced_deepslate",
     "minecraft:water",
-    "minecraft:lava"
+    "minecraft:lava",
+    "minecraft:light"
 ]}
