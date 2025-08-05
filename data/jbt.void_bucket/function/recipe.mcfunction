@@ -1,0 +1,1 @@
+recipe give @s jbt.void_bucket:void_bucket

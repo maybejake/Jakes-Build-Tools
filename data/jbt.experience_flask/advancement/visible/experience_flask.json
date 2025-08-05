@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "jbt:experience_flask_3",
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_experience_flask_title",
+      "fallback": "Keep It Secret, Keep It Safe"
+    },
+    "description": {
+      "translate": "jbt:adv_experience_flask_desc",
+      "fallback": "Craft an Experience Flask"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.experience_flask:experience_flask"
+      }
+    }
+  }
+}

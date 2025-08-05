@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:grass","fallback":"Grass Starter"},
+                "minecraft:item_model": "jbt:grass_starter",
+                "minecraft:max_damage": 10,
+                "minecraft:custom_data": {"jbt_grass":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:repairable": {"items":"minecraft:short_grass"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

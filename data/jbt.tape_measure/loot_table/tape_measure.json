@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:tape","fallback":"Tape Measure"},
+                "minecraft:item_model": "jbt:tape_measure_in",
+                "minecraft:custom_data": {"jbt_tape":true,"jbt_tape_open":false,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

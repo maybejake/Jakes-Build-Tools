@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder",
+      "components": {
+        "minecraft:item_model": "jbt:rope_ladder"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_rope_ladder_title",
+      "fallback": "A Step Down"
+    },
+    "description": {
+      "translate": "jbt:adv_rope_ladder_desc",
+      "fallback": "Craft a Rope Ladder"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.rope_ladder:rope_ladder"
+      }
+    }
+  }
+}

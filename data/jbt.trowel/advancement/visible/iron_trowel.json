@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "jbt:iron_trowel"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_iron_trowel_title",
+      "fallback": "Texturing Made Easy"
+    },
+    "description": {
+      "translate": "jbt:adv_iron_trowel_desc",
+      "fallback": "Craft an Iron Trowel"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.trowel:iron_trowel"
+      }
+    }
+  }
+}

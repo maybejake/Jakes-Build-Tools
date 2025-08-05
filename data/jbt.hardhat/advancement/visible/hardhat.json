@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "jbt:hardhat"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_hardhat_title",
+      "fallback": "OSHA Compliant"
+    },
+    "description": {
+      "translate": "jbt:adv_hardhat_desc",
+      "fallback": "Craft a Hardhat"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.hardhat:hardhat"
+      }
+    }
+  }
+}

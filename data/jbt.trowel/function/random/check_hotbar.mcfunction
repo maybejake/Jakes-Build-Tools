@@ -1,0 +1,9 @@
+execute if data storage jbt:temp trowel.inventory[{Slot:0b}] run function jbt.trowel:random/check_block {slot:0}
+execute if data storage jbt:temp trowel.inventory[{Slot:1b}] run function jbt.trowel:random/check_block {slot:1}
+execute if data storage jbt:temp trowel.inventory[{Slot:2b}] run function jbt.trowel:random/check_block {slot:2}
+execute if data storage jbt:temp trowel.inventory[{Slot:3b}] run function jbt.trowel:random/check_block {slot:3}
+execute if data storage jbt:temp trowel.inventory[{Slot:4b}] run function jbt.trowel:random/check_block {slot:4}
+execute if data storage jbt:temp trowel.inventory[{Slot:5b}] run function jbt.trowel:random/check_block {slot:5}
+execute if data storage jbt:temp trowel.inventory[{Slot:6b}] run function jbt.trowel:random/check_block {slot:6}
+execute if data storage jbt:temp trowel.inventory[{Slot:7b}] run function jbt.trowel:random/check_block {slot:7}
+execute if data storage jbt:temp trowel.inventory[{Slot:8b}] run function jbt.trowel:random/check_block {slot:8}

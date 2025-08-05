@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:consumable": {},
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_name": {"translate":"jbt:hardhat","fallback":"Hardhat"},
+                "minecraft:item_model": "jbt:hardhat_new",
+                "minecraft:custom_data": {"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_interaction_range",
+                    "id": "jbt_hardhat_reach",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ],
+                "minecraft:enchantable": {"value":10}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

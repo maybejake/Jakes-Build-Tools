@@ -1,1 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:diamond_trowel","fallback":"Diamond Trowel"},minecraft:item_model="jbt:diamond_trowel",minecraft:custom_data={"jbt_trowel":true,"jbt_trowel_diamond":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:max_damage=4500,minecraft:repairable={items:"minecraft:diamond"}]

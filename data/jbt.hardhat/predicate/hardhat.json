@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "predicates": {
+          "minecraft:attribute_modifiers": {
+            "modifiers": {
+              "contains": [
+                {
+                  "attribute": "minecraft:block_interaction_range",
+                  "id": "jbt_hardhat_reach",
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "jbt:void_bucket"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_void_bucket_title",
+      "fallback": "Unfillable"
+    },
+    "description": {
+      "translate": "jbt:adv_void_bucket_desc",
+      "fallback": "Craft a Void Bucket"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.void_bucket:void_bucket"
+      }
+    }
+  }
+}

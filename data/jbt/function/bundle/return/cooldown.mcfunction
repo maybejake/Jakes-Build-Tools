@@ -1,2 +1,0 @@
-execute store result score #reset jbt_void_bundle_cooldown run time query gametime
-execute as @a if score @s jbt_void_bundle_cooldown = #reset jbt_void_bundle_cooldown run advancement revoke @s only jbt:void_bundle

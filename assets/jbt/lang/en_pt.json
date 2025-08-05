@@ -15,6 +15,7 @@
     "jbt:iron_trowel": "Spatula o' steel",
     "jbt:diamond_trowel": "Spatula o' diamond",
     "jbt:wrench": "Barrel spinner",
+    "jbt:mining_helmet": "Glowin' tricorn",
     
     "jbt:adv_break_trowel_title": "King o' the Pirates",
     "jbt:adv_break_trowel_desc": "Shatter yer spatula o' diamond hexed with Unbreaking III",
@@ -48,6 +49,8 @@
     "jbt:adv_void_bundle_desc":"Craft yerself an abyss pouch",
     "jbt:adv_wrench_title":"Capsize",
     "jbt:adv_wrench_desc":"Craft yerself a barrel spinner",
+    "jbt:adv_mining_helmet_title":"Lights on the Ocean",
+    "jbt:adv_mining_helmet_desc":"Craft yerself a glowin' tricorn",
     "jbt:adv_root_desc":"Wares to make piratin' easy!",
 
     "jbt:loaded":"boarded!"

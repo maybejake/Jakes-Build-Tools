@@ -1,0 +1,5 @@
+$item modify entity @s weapon.offhand [{"function": "minecraft:set_custom_data","tag": "{jbt_flask:1b,jbt_corked:1b,jbt_levels:$(levels),jbt_points:$(points)}"},{"function": "minecraft:set_lore","entity": "this","lore": [{"text": "$(levels) levels ($(points) points)","color":"blue","italic":false}],"mode": "replace_all"},{"function": "minecraft:set_components","components":{"minecraft:enchantment_glint_override": true,"minecraft:item_name":{"text":"Experience Flask","color":"yellow"}}}]
+
+execute if score $levels jbt.dummy matches ..16 run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:experience_flask_1"}}]
+execute if score $levels jbt.dummy matches 17..31 run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:experience_flask_2"}}]
+execute if score $levels jbt.dummy matches 32.. run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:experience_flask_3"}}]

@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) align xyz positioned ~0.5 ~0.5 ~0.5 summon minecraft:item_display run function jbt.tape_measure:selection/setup

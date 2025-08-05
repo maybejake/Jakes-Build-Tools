@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:bucket","fallback":"Void Bucket"},
+                "minecraft:item_model": "jbt:void_bucket",
+                "minecraft:custom_data": {"jbt_bucket":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

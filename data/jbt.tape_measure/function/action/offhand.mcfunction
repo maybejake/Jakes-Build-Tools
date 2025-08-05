@@ -1,0 +1,2 @@
+execute unless predicate jbt.tape_measure:open/offhand run return run function jbt.tape_measure:action/store/offhand with storage jbt:temp tape
+execute if predicate jbt.tape_measure:open/offhand run function jbt.tape_measure:action/measure/offhand with storage jbt:temp tape

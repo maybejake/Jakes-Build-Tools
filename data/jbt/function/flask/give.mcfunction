@@ -1,1 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:flask","fallback":"Experience Flask"},minecraft:item_model="jbt:experience_flask_0",minecraft:custom_data={"jbt_flask":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]

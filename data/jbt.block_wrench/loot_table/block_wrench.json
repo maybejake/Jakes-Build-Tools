@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:wrench","fallback":"Block Wrench"},
+                "minecraft:item_model": "jbt:wrench",
+                "minecraft:max_damage": 5000,
+                "minecraft:custom_data": {"jbt_wrench":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:repairable": {"items":"minecraft:iron_ingot"},
+                "minecraft:enchantable": {"value":9}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

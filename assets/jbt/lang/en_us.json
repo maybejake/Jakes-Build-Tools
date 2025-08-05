@@ -15,6 +15,7 @@
     "jbt:iron_trowel": "Iron Trowel",
     "jbt:diamond_trowel": "Diamond Trowel",
     "jbt:wrench": "Block Wrench",
+    "jbt:mining_helmet": "Mining Helmet",
     
     "jbt:adv_break_trowel_title": "Master Builder",
     "jbt:adv_break_trowel_desc": "Break a Diamond Trowel enchanted with Unbreaking III",
@@ -48,6 +49,8 @@
     "jbt:adv_void_bundle_desc":"Craft a Void Bundle",
     "jbt:adv_wrench_title":"Gut-wrenching",
     "jbt:adv_wrench_desc":"Craft a Block Wrench",
+    "jbt:adv_mining_helmet_title":"Lightheaded",
+    "jbt:adv_mining_helmet_desc":"Craft a Mining Helmet",
     "jbt:adv_root_desc":"Tools to make building easy!",
 
     "jbt:loaded":"loaded!"

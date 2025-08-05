@@ -1,0 +1,8 @@
+$execute if score $y1 jbt.dummy = $one jbt.dummy if score $z1 jbt.dummy = $one jbt.dummy if score $x1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(x)x$(z)x$(y)"
+$execute if score $y1 jbt.dummy = $one jbt.dummy if score $z1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(x)"
+$execute if score $y1 jbt.dummy = $one jbt.dummy if score $x1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(z)"
+$execute if score $z1 jbt.dummy = $one jbt.dummy if score $x1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(y)"
+$execute if score $x1 jbt.dummy = $one jbt.dummy unless score $y1 jbt.dummy = $one jbt.dummy unless score $z1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(z)x$(y)"
+$execute unless score $x1 jbt.dummy = $one jbt.dummy if score $y1 jbt.dummy = $one jbt.dummy unless score $z1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(x)x$(z)"
+$execute unless score $x1 jbt.dummy = $one jbt.dummy unless score $y1 jbt.dummy = $one jbt.dummy if score $z1 jbt.dummy = $one jbt.dummy run return run data modify storage jbt:temp tape.dimensions set value "$(x)x$(y)"
+$data modify storage jbt:temp tape.dimensions set value "$(x)x$(z)x$(y)"

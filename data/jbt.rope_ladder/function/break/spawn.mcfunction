@@ -1,0 +1,27 @@
+$execute at @s align xyz run loot spawn ~0.5 ~0.5 ~0.5 loot { \
+  "pools": [ \
+    { \
+      "rolls": 1, \
+      "entries": [ \
+        { \
+          "type": "minecraft:item", \
+          "name": "minecraft:ladder", \
+          "functions": [ \
+            { \
+              "function": "minecraft:set_components", \
+              "components": { \
+                "minecraft:item_name": {"translate":"jbt:ladder","fallback":"Rope Ladder"}, \
+                "minecraft:item_model": "jbt:rope_ladder", \
+                "minecraft:custom_data": {"jbt_ladder":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}} \
+              } \
+            }, \
+            { \
+              "function": "minecraft:set_count", \
+              "count": $(count) \
+            } \
+          ] \
+        } \
+      ] \
+    } \
+  ] \
+}

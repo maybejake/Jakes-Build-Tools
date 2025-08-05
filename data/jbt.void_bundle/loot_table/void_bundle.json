@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:bundle","fallback":"Void Bundle"},
+                "minecraft:item_model": "jbt:void_bundle",
+                "minecraft:custom_data": {"jbt_bundle":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

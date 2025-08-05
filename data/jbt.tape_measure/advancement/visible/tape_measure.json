@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "jbt:tape_measure_in"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_tape_measure_title",
+      "fallback": "Going the Distance"
+    },
+    "description": {
+      "translate": "jbt:adv_tape_measure_desc",
+      "fallback": "Craft a Tape Measure"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.tape_measure:tape_measure"
+      }
+    }
+  }
+}

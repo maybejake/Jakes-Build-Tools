@@ -1,0 +1,6 @@
+execute if entity @s[predicate=jbt.trowel:mainhand/either,predicate=jbt.trowel:junk/false] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_trowel_junk":1b}}
+execute if entity @s[predicate=jbt.trowel:offhand/either,predicate=jbt.trowel:junk/false] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_trowel_junk":1b}}
+execute if entity @s[predicate=jbt.trowel:mainhand/either,predicate=jbt.trowel:junk/true] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_trowel_junk":0b}}
+execute if entity @s[predicate=jbt.trowel:offhand/either,predicate=jbt.trowel:junk/true] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_trowel_junk":0b}}
+execute if entity @s[predicate=jbt.trowel:mainhand/either] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_trowel_junk":0b}}
+execute if entity @s[predicate=jbt.trowel:offhand/either] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_trowel_junk":0b}}

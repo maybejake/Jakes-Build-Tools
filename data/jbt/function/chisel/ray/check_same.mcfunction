@@ -1,1 +1,0 @@
-$execute if block ~ ~ ~ $(chosen_block) run scoreboard players set @s jbt_chisel_same_check 1

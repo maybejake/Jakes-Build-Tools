@@ -1,1 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:iron_chisel","fallback":"Iron Chisel"},minecraft:item_model="jbt:iron_chisel",minecraft:custom_data={"jbt_chisel":true,"jbt_chisel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:max_damage=350,minecraft:repairable={items:"minecraft:iron_ingot"}]

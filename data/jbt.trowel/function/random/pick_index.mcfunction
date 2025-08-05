@@ -1,0 +1,1 @@
+$return run random value 0..$(block_count)

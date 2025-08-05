@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:item_model": "jbt:wrench"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_wrench_title",
+      "fallback": "Gut-wrenching"
+    },
+    "description": {
+      "translate": "jbt:adv_wrench_desc",
+      "fallback": "Craft a Block Wrench"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.block_wrench:block_wrench"
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "iti",
+    "ili",
+    "l l"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "l": "minecraft:leather",
+    "t": "minecraft:lantern"
+  },
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "count": 1,
+    "components": {
+      "!minecraft:consumable": {},
+      "minecraft:max_stack_size": 1,
+      "minecraft:item_name": {"translate":"jbt:mining_helmet","fallback":"Mining Helmet"},
+      "minecraft:item_model": "jbt:mining_helmet",
+      "minecraft:custom_data": {"jbt_mining_helmet":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:enchantable": {"value":10}
+    }
+  }
+}

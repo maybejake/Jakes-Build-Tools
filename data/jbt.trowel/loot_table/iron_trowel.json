@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:iron_trowel","fallback":"Iron Trowel"},
+                "minecraft:item_model": "jbt:iron_trowel",
+                "minecraft:max_damage": 750,
+                "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:repairable": {"items":"minecraft:iron_ingot"},
+                "minecraft:enchantable": {"value":9}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

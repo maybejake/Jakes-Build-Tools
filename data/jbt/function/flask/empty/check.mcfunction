@@ -1,2 +1,0 @@
-execute if entity @s[predicate=jbt:flask/mainhand,predicate=!jbt:flask/offhand] run function jbt:flask/empty/mainhand
-execute if entity @s[predicate=jbt:flask/offhand,predicate=!jbt:flask/mainhand] run function jbt:flask/empty/offhand

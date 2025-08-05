@@ -1,0 +1,2 @@
+execute if entity @s[predicate=jbt.mob_bag:mainhand] store result score $id jbt.dummy run return run data get entity @s SelectedItem.components."minecraft:custom_data".jbt_id
+execute if entity @s[predicate=jbt.mob_bag:offhand] store result score $id jbt.dummy run data get entity @s equipment.offhand.components."minecraft:custom_data".jbt_id

@@ -1,6 +1,0 @@
-$item modify entity @s weapon.offhand [{"function": "minecraft:set_custom_data","tag": "{jbt_flask:1b,jbt_corked:1b,jbt_levels:$(player_levels),jbt_points:$(player_points)}"},{"function": "minecraft:set_lore","entity": "this","lore": [{"text": "$(player_levels) levels ($(player_points) points)","color":"blue","italic":false}],"mode": "replace_all"},{"function": "minecraft:set_components","components":{"minecraft:enchantment_glint_override": true,"minecraft:item_name":{"text":"Experience Flask","color":"yellow"}}}]
-
-execute store result score @s jbt_flask_player_levels run data get storage jbt:flask player_levels
-execute if score @s jbt_flask_player_levels matches ..16 run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:experience_flask_1"}}]
-execute if score @s jbt_flask_player_levels matches 17..31 run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:experience_flask_2"}}]
-execute if score @s jbt_flask_player_levels matches 32.. run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:experience_flask_3"}}]

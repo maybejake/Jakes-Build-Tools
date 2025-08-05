@@ -1,0 +1,6 @@
+execute if entity @s[predicate=jbt.block_wrench:mainhand,predicate=jbt.block_wrench:junk/false] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_wrench_junk":1b}}
+execute if entity @s[predicate=jbt.block_wrench:offhand,predicate=jbt.block_wrench:junk/false] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_wrench_junk":1b}}
+execute if entity @s[predicate=jbt.block_wrench:mainhand,predicate=jbt.block_wrench:junk/true] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_wrench_junk":0b}}
+execute if entity @s[predicate=jbt.block_wrench:offhand,predicate=jbt.block_wrench:junk/true] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_wrench_junk":0b}}
+execute if entity @s[predicate=jbt.block_wrench:mainhand] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_wrench_junk":0b}}
+execute if entity @s[predicate=jbt.block_wrench:offhand] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_wrench_junk":0b}}

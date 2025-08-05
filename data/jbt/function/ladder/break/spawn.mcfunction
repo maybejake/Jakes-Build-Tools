@@ -1,1 +1,0 @@
-execute at @s run summon minecraft:item ~ ~ ~ {Item:{components:{"minecraft:item_model":"jbt:rope_ladder","minecraft:item_name":{"translate":"jbt:ladder","fallback":"Rope Ladder"},"minecraft:custom_data":{jbt_ladder:1b,smithed:{ignore:{functionality:true,crafting:true}}}},count:1,id:"minecraft:ladder"}}

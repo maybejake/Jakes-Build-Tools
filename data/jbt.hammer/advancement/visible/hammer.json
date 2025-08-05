@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "minecraft:item_model": "jbt:hammer"
+      }
+    },
+    "title": {
+      "translate": "jbt:adv_hammer_title",
+      "fallback": "This Is Not a Drill"
+    },
+    "description": {
+      "translate": "jbt:adv_hammer_desc",
+      "fallback": "Craft a Hammer"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/root",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jbt.hammer:hammer"
+      }
+    }
+  }
+}

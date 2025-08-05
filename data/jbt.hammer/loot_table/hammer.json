@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {"translate":"jbt:hammer","fallback":"Hammer"},
+                "minecraft:item_model": "jbt:hammer",
+                "minecraft:max_damage": 1800,
+                "minecraft:custom_data": {"jbt_hammer":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:repairable": {"items":"minecraft:copper_ingot"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

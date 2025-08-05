@@ -1,0 +1,2 @@
+execute if entity @s[predicate=jbt.experience_flask:mainhand,predicate=!jbt.experience_flask:offhand] run function jbt.experience_flask:empty/mainhand
+execute if entity @s[predicate=jbt.experience_flask:offhand,predicate=!jbt.experience_flask:mainhand] run function jbt.experience_flask:empty/offhand

@@ -1,1 +1,0 @@
-$execute if items entity @s hotbar.$(chosen_slot) #jbt:block_items run scoreboard players set @s jbt_chisel_slot_check 1

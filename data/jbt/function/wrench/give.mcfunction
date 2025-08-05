@@ -1,1 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:wrench","fallback":"Block Wrench"},minecraft:item_model="jbt:wrench",minecraft:custom_data={"jbt_wrench":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:max_damage=5000,minecraft:repairable={items:"minecraft:iron_ingot"}]

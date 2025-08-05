@@ -1,1 +1,0 @@
-give @s minecraft:rabbit_foot[minecraft:max_stack_size=1,minecraft:item_name={"translate":"jbt:magnet","fallback":"Item Magnet"},minecraft:item_model="jbt:item_magnet",minecraft:custom_data={"jbt_magnet":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]

@@ -1,1 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:grass","fallback":"Grass Starter"},minecraft:item_model="jbt:grass_starter",minecraft:custom_data={"jbt_grass":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:max_damage=10]

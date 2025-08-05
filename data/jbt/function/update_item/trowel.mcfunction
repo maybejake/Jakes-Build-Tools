@@ -1,5 +1,0 @@
-execute if entity @s[predicate=jbt:trowel/mainhand/diamond] run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_name":{"translate":"jbt:diamond_Trowel","fallback":"Diamond Trowel"},"minecraft:item_model":"jbt:diamond_trowel","minecraft:repairable":{"items":"minecraft:diamond"}}}
-execute if entity @s[predicate=jbt:trowel/mainhand/diamond] run return run tellraw @s [{"translate":"jbt:diamond_trowel","fallback":"Diamond Trowel"}," updated!"]
-
-execute if entity @s[predicate=jbt:trowel/mainhand/iron] run item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components":{"minecraft:item_name":{"translate":"jbt:iron_trowel","fallback":"Iron Trowel"},"minecraft:item_model":"jbt:iron_trowel","minecraft:repairable":{"items":"minecraft:iron_ingot"}}}
-execute if entity @s[predicate=jbt:trowel/mainhand/iron] run return run tellraw @s [{"translate":"jbt:iron_trowel","fallback":"Iron Trowel"}," updated!"]

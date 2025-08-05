@@ -1,1 +1,0 @@
-give @s minecraft:warped_fungus_on_a_stick[minecraft:item_name={"translate":"jbt:tape","fallback":"Tape Measure"},minecraft:item_model="jbt:tape_measure_in",minecraft:custom_data={"jbt_tape":true,"jbt_tape_open":false,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]

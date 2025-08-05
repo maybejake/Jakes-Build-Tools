@@ -1,0 +1,3 @@
+execute if entity @s[predicate=jbt.chisel:junk/false] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_chisel_junk":1b}}
+execute if entity @s[predicate=jbt.chisel:junk/true] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_chisel_junk":0b}}
+item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_chisel_junk":0b}}

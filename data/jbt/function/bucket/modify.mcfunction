@@ -1,6 +1,0 @@
-execute if entity @s[predicate=jbt:bucket/mainhand,predicate=jbt:bucket/junk_false] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_bucket_junk":1b}}
-execute if entity @s[predicate=jbt:bucket/offhand,predicate=jbt:bucket/junk_false] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_bucket_junk":1b}}
-execute if entity @s[predicate=jbt:bucket/mainhand,predicate=jbt:bucket/junk_true] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_bucket_junk":0b}}
-execute if entity @s[predicate=jbt:bucket/offhand,predicate=jbt:bucket/junk_true] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_bucket_junk":0b}}
-execute if entity @s[predicate=jbt:bucket/mainhand] run return run item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_data","tag":{"jbt_bucket_junk":0b}}
-execute if entity @s[predicate=jbt:bucket/offhand] run return run item modify entity @s weapon.offhand {"function":"minecraft:set_custom_data","tag":{"jbt_bucket_junk":0b}}
