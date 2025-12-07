@@ -1,6 +1,6 @@
-execute unless block ~0.06 ~ ~ #jbt.main:blocks run scoreboard players set $side jbt.dummy 4
-execute unless block ~-0.06 ~ ~ #jbt.main:blocks run scoreboard players set $side jbt.dummy 3
-execute unless block ~ ~0.06 ~ #jbt.main:blocks run scoreboard players set $side jbt.dummy 6
-execute unless block ~ ~-0.06 ~ #jbt.main:blocks run scoreboard players set $side jbt.dummy 5
-execute unless block ~ ~ ~0.06 #jbt.main:blocks run scoreboard players set $side jbt.dummy 2
-execute unless block ~ ~ ~-0.06 #jbt.main:blocks run scoreboard players set $side jbt.dummy 1
+execute if data storage jbt.iris:output TargetedFace{Direction:"UP"} run return 5
+execute if data storage jbt.iris:output TargetedFace{Direction:"NORTH"} run return 2
+execute if data storage jbt.iris:output TargetedFace{Direction:"EAST"} run return 3
+execute if data storage jbt.iris:output TargetedFace{Direction:"SOUTH"} run return 1
+execute if data storage jbt.iris:output TargetedFace{Direction:"WEST"} run return 4
+execute if data storage jbt.iris:output TargetedFace{Direction:"DOWN"} run return 6

@@ -10,23 +10,12 @@
           "type": "minecraft:model",
           "model": "jbt:item/mining_helmet"
         }
-      },
-      {
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "jbt:item/mining_helmet_item"
-        }
       }
     ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "jbt:item/mining_helmet_item"
+    },
     "property": "minecraft:display_context"
   }
 }

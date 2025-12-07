@@ -1,2 +1,0 @@
-execute store result score $reset jbt.bundle_cooldown run time query gametime
-execute as @a if score @s jbt.bundle_cooldown = $reset jbt.bundle_cooldown run advancement revoke @s only jbt.void_bundle:use

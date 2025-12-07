@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_mob_bag_desc",
-      "fallback": "Craft a Mob Bag"
+      "fallback": "Move passive mobs with ease by crafting a mob bag"
     },
     "show_toast": true,
     "announce_to_chat": true,

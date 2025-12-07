@@ -13,7 +13,7 @@
     },
     "description": {
       "translate": "jbt:adv_experience_flask_desc",
-      "fallback": "Craft an Experience Flask"
+      "fallback": "Keep your experience safe by crafting an experience flask"
     },
     "show_toast": true,
     "announce_to_chat": true,

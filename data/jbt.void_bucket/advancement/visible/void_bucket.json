@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_void_bucket_desc",
-      "fallback": "Craft a Void Bucket"
+      "fallback": "Quickly clean up spills by crafting a void bucket"
     },
     "show_toast": true,
     "announce_to_chat": true,

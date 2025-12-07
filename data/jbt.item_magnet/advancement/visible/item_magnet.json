@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_item_magnet_desc",
-      "fallback": "Craft an Item Magnet"
+      "fallback": "Pull items towards you by crafting an item magnet"
     },
     "show_toast": true,
     "announce_to_chat": true,

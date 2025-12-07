@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_void_bundle_desc",
-      "fallback": "Craft a Void Bundle"
+      "fallback": "Trash items on the go by crafting a void bundle"
     },
     "show_toast": true,
     "announce_to_chat": true,

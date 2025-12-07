@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_hammer_desc",
-      "fallback": "Craft a Hammer"
+      "fallback": "Mine more by crafting a hammer"
     },
     "show_toast": true,
     "announce_to_chat": true,

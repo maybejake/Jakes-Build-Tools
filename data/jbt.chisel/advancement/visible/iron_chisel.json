@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_iron_chisel_desc",
-      "fallback": "Craft an Iron Chisel"
+      "fallback": "Replace blocks with new ones by crafting an iron chisel"
     },
     "show_toast": true,
     "announce_to_chat": true,

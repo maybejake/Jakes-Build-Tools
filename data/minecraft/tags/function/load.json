@@ -1,5 +1,6 @@
 {
   "values": [
-    "jbt.main:loaded"
+    "jbt.main:loaded",
+    "jbt.iris:setup/load"
    ] 
 }

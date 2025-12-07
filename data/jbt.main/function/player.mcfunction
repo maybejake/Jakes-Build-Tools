@@ -18,3 +18,6 @@ function jbt.hardhat:check
 
 #mining helmet check
 function jbt.mining_helmet:check
+
+#cooldowns
+execute if score @s jbt.cooldown matches 1.. at @s run function jbt.main:cooldown

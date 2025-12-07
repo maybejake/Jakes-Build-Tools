@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_wrench_desc",
-      "fallback": "Craft a Block Wrench"
+      "fallback": "Rotate blocks by crafting a block wrench"
     },
     "show_toast": true,
     "announce_to_chat": true,

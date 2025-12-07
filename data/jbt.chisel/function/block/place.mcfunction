@@ -1,6 +1,6 @@
 execute if entity @s[gamemode=creative] run gamerule doTileDrops false
 
-execute positioned ^ ^ ^-0.05 run function jbt.main:side/get
+execute store result score $side jbt.dummy run function jbt.main:side/get
 
 data modify storage jbt:temp chisel.chosen_block set from storage jbt:temp chisel.block
 function jbt.main:rotation/check with storage jbt:temp chisel

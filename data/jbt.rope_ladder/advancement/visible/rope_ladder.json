@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_rope_ladder_desc",
-      "fallback": "Craft a Rope Ladder"
+      "fallback": "Descend faster by crafting rope ladders"
     },
     "show_toast": true,
     "announce_to_chat": true,

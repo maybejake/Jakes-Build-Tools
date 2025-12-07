@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_grass_starter_desc",
-      "fallback": "Craft a Grass Starter"
+      "fallback": "Convert dirt to grass by crafting a grass starter"
     },
     "show_toast": true,
     "announce_to_chat": true,

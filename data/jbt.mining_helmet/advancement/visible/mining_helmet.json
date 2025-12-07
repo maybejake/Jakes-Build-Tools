@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_mining_helmet_desc",
-      "fallback": "Craft a Mining Helmet"
+      "fallback": "Light up the darkness by crafting a mining helmet"
     },
     "show_toast": true,
     "announce_to_chat": true,

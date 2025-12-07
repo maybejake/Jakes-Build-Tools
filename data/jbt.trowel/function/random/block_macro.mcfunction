@@ -4,6 +4,9 @@ $execute if data storage jbt:temp trowel.inventory[{Slot:$(slot)b}].components.s
 #ban containers
 $execute if items entity @s hotbar.$(slot) *[minecraft:container,!minecraft:container=[]] run return fail
 
+#check blacklists
+$execute if items entity @s hotbar.$(slot) #jbt.main:blacklist run return fail
+
 $setblock -20000000 -64 98 $(id)
 
 setblock -20000000 -64 98 bedrock

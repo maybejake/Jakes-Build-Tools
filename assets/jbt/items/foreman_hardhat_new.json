@@ -10,23 +10,12 @@
           "type": "minecraft:model",
           "model": "jbt:item/foreman_hardhat_head"
         }
-      },
-      {
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "firstperson_righthand",
-          "firstperson_lefthand",
-          "thirdperson_righthand",
-          "thirdperson_lefthand"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "jbt:item/foreman_hardhat"
-        }
       }
     ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "jbt:item/foreman_hardhat"
+    },
     "property": "minecraft:display_context"
   }
 }

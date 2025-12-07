@@ -10,7 +10,7 @@
     "frame": "challenge",
     "description": {
       "translate": "jbt:adv_break_trowel_desc",
-      "fallback": "Break a Diamond Trowel enchanted with Unbreaking III"
+      "fallback": "Break a diamond trowel enchanted with unbreaking III"
     },
     "show_toast": true,
     "announce_to_chat": true,

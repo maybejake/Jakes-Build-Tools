@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_hardhat_desc",
-      "fallback": "Craft a Hardhat"
+      "fallback": "Reach further and feel safer by crafting a hardhat"
     },
     "show_toast": true,
     "announce_to_chat": true,

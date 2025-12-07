@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_tape_measure_desc",
-      "fallback": "Craft a Tape Measure"
+      "fallback": "Measure distance with precision by crafting a tape measure"
     },
     "show_toast": true,
     "announce_to_chat": true,

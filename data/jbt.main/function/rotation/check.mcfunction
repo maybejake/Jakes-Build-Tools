@@ -2,8 +2,8 @@ data remove storage jbt:temp rotation
 
 $data modify storage jbt:temp rotation.block set value "$(chosen_block)"
 
-execute unless score $side jbt.dummy matches 1.. run function jbt.main:side/get
-execute store result score $half jbt.dummy summon minecraft:marker run function jbt.main:side/half
+execute unless score $side jbt.dummy matches 1.. store result score $side jbt.dummy run function jbt.main:side/get
+execute store result score $half jbt.dummy run function jbt.main:side/half
 execute store result score $direction jbt.dummy run function jbt.main:direction/get
 function jbt.main:rotation/get/start
 

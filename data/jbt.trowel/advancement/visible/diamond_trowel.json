@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_diamond_trowel_desc",
-      "fallback": "Craft a Diamond Trowel"
+      "fallback": "Craft a diamond trowel"
     },
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,0 +1,14 @@
+execute if entity @s[type=minecraft:leash_knot] run function jbt.iris:get_hitbox/entity/shape_groups/leash_knot
+execute if entity @s[type=#jbt.iris:shape_groups/llama] run function jbt.iris:get_hitbox/entity/shape_groups/llama
+execute if entity @s[type=minecraft:panda] run function jbt.iris:get_hitbox/entity/shape_groups/panda
+execute if entity @s[type=minecraft:pig] run function jbt.iris:get_hitbox/entity/shape_groups/pig
+execute if entity @s[type=minecraft:polar_bear] run function jbt.iris:get_hitbox/entity/shape_groups/polar_bear
+execute if entity @s[type=minecraft:rabbit] run function jbt.iris:get_hitbox/entity/shape_groups/rabbit
+execute if entity @s[type=minecraft:ravager] run function jbt.iris:get_hitbox/entity/shape_groups/ravager
+execute if entity @s[type=minecraft:salmon] run function jbt.iris:get_hitbox/entity/shape_groups/salmon
+execute if entity @s[type=minecraft:sniffer] run function jbt.iris:get_hitbox/entity/shape_groups/sniffer
+execute if entity @s[type=minecraft:snow_golem] run function jbt.iris:get_hitbox/entity/shape_groups/snow_golem
+execute if entity @s[type=minecraft:spider] run function jbt.iris:get_hitbox/entity/shape_groups/spider
+execute if entity @s[type=minecraft:strider] run function jbt.iris:get_hitbox/entity/shape_groups/strider
+execute if entity @s[type=minecraft:tropical_fish] run function jbt.iris:get_hitbox/entity/shape_groups/tropical_fish
+execute if entity @s[type=minecraft:turtle] run function jbt.iris:get_hitbox/entity/shape_groups/turtle

@@ -1,4 +1,5 @@
 {
+  "parent": "jbt.main:cooldown",
   "criteria": {
       "requirement": {
           "trigger": "minecraft:using_item",

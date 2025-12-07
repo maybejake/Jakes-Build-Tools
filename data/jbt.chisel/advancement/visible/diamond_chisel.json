@@ -12,7 +12,7 @@
     },
     "description": {
       "translate": "jbt:adv_diamond_chisel_desc",
-      "fallback": "Craft a Diamond Chisel"
+      "fallback": "Craft a diamond chisel"
     },
     "show_toast": true,
     "announce_to_chat": true,
