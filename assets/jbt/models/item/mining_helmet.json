@@ -110,12 +110,7 @@
 			"light_emission": 15,
 			"rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 2]},
 			"faces": {
-				"north": {"uv": [5.5, 10.5, 6.5, 11.5], "texture": "#1"},
-				"east": {"uv": [0, 0, 0, 1], "texture": "#missing"},
-				"south": {"uv": [0, 0, 1, 1], "texture": "#missing"},
-				"west": {"uv": [0, 0, 0, 1], "texture": "#missing"},
-				"up": {"uv": [0, 0, 1, 0], "texture": "#missing"},
-				"down": {"uv": [0, 0, 1, 0], "texture": "#missing"}
+				"north": {"uv": [5.5, 10.5, 6.5, 11.5], "texture": "#1"}
 			}
 		}
 	],

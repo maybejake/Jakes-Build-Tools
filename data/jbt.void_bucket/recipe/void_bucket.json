@@ -15,7 +15,8 @@
     "components": {
       "minecraft:item_name": {"translate":"jbt:bucket","fallback":"Void Bucket"},
       "minecraft:item_model": "jbt:void_bucket",
-      "minecraft:custom_data": {"jbt_bucket":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+      "minecraft:custom_data": {"jbt_bucket":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "!minecraft:max_damage": {}
     }
   }
 }

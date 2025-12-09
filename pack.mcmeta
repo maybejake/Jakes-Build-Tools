@@ -1,11 +1,8 @@
 {
-   "id": "jakes-build-tools",
-   "pack":{
-      "pack_format":64,
-      "description":"Tools to make building easy!",
-    "supported_formats": {
-      "max_inclusive": 64,
-      "min_inclusive": 55
-    }
-   }
+  "id": "jakes-build-tools",
+  "pack":{
+    "max_format": 75,
+    "min_format": 75,
+    "description":"Tools to make building easy!"
+  }
 }
