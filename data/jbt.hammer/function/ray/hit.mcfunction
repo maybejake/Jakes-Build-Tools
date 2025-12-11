@@ -1,11 +1,11 @@
 scoreboard players set $side jbt.dummy 0
 setblock ~ ~ ~ minecraft:barrier replace
-execute at @s anchored eyes positioned ^ ^ ^-2 run function jbt.hammer:side/start
-setblock ~ ~ ~ minecraft:air replace
 
-execute if score $side jbt.dummy matches 1 run function jbt.hammer:break/northsouth
-execute if score $side jbt.dummy matches 2 run function jbt.hammer:break/northsouth
-execute if score $side jbt.dummy matches 3 run function jbt.hammer:break/eastwest
-execute if score $side jbt.dummy matches 4 run function jbt.hammer:break/eastwest
-execute if score $side jbt.dummy matches 5 run function jbt.hammer:break/updown
-execute if score $side jbt.dummy matches 6 run function jbt.hammer:break/updown
+data remove storage jbt.iris:settings Callback
+data merge storage jbt.iris:settings {Whitelist:"minecraft:barrier",TargetEntities:false,MaxRecursionDepth:16,Blacklist:"#jbt.iris:shape_groups/air"}
+
+execute store result score $max_distance jbt.dummy run attribute @s minecraft:block_interaction_range get 1000000
+execute at @s anchored eyes positioned ^ ^ ^ store result score $distance jbt.dummy run function jbt.iris:get_target
+execute if score $distance jbt.dummy <= $max_distance jbt.dummy at @n[type=minecraft:marker, tag=jbt.iris.targeted_block] positioned ~ ~ ~ run function jbt.hammer:ray/on_block
+
+setblock ~ ~ ~ minecraft:air replace

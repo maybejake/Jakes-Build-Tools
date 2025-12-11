@@ -1,1 +1,0 @@
-execute positioned ^ ^ ^-0.05 run function jbt.main:side/get
