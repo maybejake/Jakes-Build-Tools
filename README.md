@@ -22,9 +22,6 @@
 
 For details on function and recipes, check out the [wiki](https://github.com/maybejake/Jakes-Build-Tools/wiki)!
 
-# Trailer
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O-WSBpU-kbU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 # FAQ
 ### Where is the resource pack?
 It's packaged with the datapack! The zip file you download can be used interchangeably, so just drop it into your resourcepack and datapack folders and you'll be good to go!
