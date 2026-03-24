@@ -6,6 +6,8 @@
       "minecraft:donkey",
       "minecraft:mule",
       "minecraft:trader_llama",
-      "minecraft:wandering_trader"
+      "minecraft:wandering_trader",
+      "minecraft:nautilus",
+      "minecraft:camel"
     ]
   }

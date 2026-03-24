@@ -5,15 +5,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"jbt:bucket","fallback":"Void Bucket"},
+                "minecraft:item_name": {"translate":"item.jbt.void_bucket","fallback":"Void Bucket"},
                 "minecraft:item_model": "jbt:void_bucket",
-                "minecraft:custom_data": {"jbt_bucket":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "!minecraft:max_damage": {}
+                "minecraft:custom_data": {"jbt":{"id":"void_bucket"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+                "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
+                "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
+                "minecraft:max_stack_size": 1
               }
             }
           ]

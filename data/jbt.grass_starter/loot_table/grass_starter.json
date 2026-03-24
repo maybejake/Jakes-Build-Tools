@@ -5,16 +5,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"jbt:grass","fallback":"Grass Starter"},
+                "minecraft:item_name": {"translate":"item.jbt.grass_starter","fallback":"Grass Starter"},
                 "minecraft:item_model": "jbt:grass_starter",
                 "minecraft:max_damage": 10,
-                "minecraft:custom_data": {"jbt_grass":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:repairable": {"items":"minecraft:short_grass"}
+                "minecraft:custom_data": {"jbt":{"id":"grass_starter"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:repairable": {"items":"minecraft:short_grass"},
+                "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+                "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
+                "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
+                "minecraft:max_stack_size": 1
               }
             }
           ]

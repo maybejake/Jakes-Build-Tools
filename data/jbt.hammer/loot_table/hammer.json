@@ -5,16 +5,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
+          "name": "minecraft:netherite_pickaxe",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"jbt:hammer","fallback":"Hammer"},
+                "minecraft:item_name": {"translate":"item.jbt.hammer","fallback":"Hammer"},
                 "minecraft:item_model": "jbt:hammer",
                 "minecraft:max_damage": 1800,
-                "minecraft:custom_data": {"jbt_hammer":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
-                "minecraft:repairable": {"items":"minecraft:copper_ingot"}
+                "minecraft:custom_data": {"jbt":{"id":"hammer"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:repairable": {"items":"minecraft:copper_ingot"},
+                "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+                "minecraft:tool": {"rules":[{"blocks":"#minecraft:mineable/pickaxe","correct_for_drops":true,"speed":6}]}
               }
             }
           ]

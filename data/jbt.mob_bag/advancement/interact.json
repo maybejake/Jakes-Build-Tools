@@ -1,4 +1,5 @@
 {
+  "parent": "jbt.main:cooldown",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
@@ -13,11 +14,8 @@
           }
         ],
         "item": {
-          "items": [
-            "minecraft:warped_fungus_on_a_stick"
-          ],
           "predicates": {
-            "minecraft:custom_data": "{jbt_bag:1b}"
+            "minecraft:custom_data": {"jbt":{"id":"mob_bag","filled":false}}
           }
         },
         "entity": [
@@ -45,6 +43,6 @@
     }
   },
   "rewards": {
-    "function": "jbt.mob_bag:effect"
+    "function": "jbt.mob_bag:fill"
   }
 }

@@ -23,5 +23,7 @@
     "minecraft:torch",
     "minecraft:short_dry_grass",
     "minecraft:tall_dry_grass",
-    "minecraft:light"
+    "minecraft:light",
+    "minecraft:leaf_litter",
+    "minecraft:bush"
 ]}

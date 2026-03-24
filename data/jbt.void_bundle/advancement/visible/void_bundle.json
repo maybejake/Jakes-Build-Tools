@@ -6,24 +6,24 @@
         "minecraft:item_model": "jbt:void_bundle"
       }
     },
-    "title": {
-      "translate": "jbt:adv_void_bundle_title",
-      "fallback": "Null and Void"
-    },
-    "description": {
-      "translate": "jbt:adv_void_bundle_desc",
-      "fallback": "Trash items on the go by crafting a void bundle"
-    },
+    "title": {"translate":"advancement.jbt.void_bundle.title","fallback":"Null and Void"},
+    "description": [{"translate":"advancement.jbt.void_bundle.desc","fallback":"Trash items on the go by crafting a void bundle"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.void_bundle:void_bundle"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"void_bundle"}}
+            }
+          }
+        ]
       }
     }
   }

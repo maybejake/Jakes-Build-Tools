@@ -1,0 +1,1 @@
+$data modify storage jbt:temp book.page_data set from storage jbt:book pages.$(current_page)

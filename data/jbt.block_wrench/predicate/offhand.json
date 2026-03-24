@@ -8,7 +8,7 @@
         "equipment": {
           "offhand": {
             "predicates": {
-              "minecraft:custom_data": "{jbt_wrench:1b}"
+              "minecraft:custom_data": {"jbt":{"id":"block_wrench"}}
             }
           }
         }

@@ -1,6 +1,10 @@
 {
   "values": [
     "jbt.main:loaded",
-    "jbt.iris:setup/load"
+    "jbt.main:tick_2",
+    "jbt.main:tick_20",
+    "jbt.iris:setup/load",
+    "dcf:loaded",
+    "dcf:tick_40"
    ] 
 }

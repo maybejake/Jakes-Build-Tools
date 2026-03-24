@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:iron_nugget"
+  ],
+  "result": {
+    "id": "minecraft:written_book",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {"translate":"item.jbt.owners_manual","fallback":"Owner's Manual"},
+      "minecraft:item_model": "jbt:owners_manual",
+      "minecraft:custom_data": {"jbt":{"id":"owners_manual"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:enchantment_glint_override": false,
+      "!written_book_content": {},
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:written_book_content"
+        ]
+      },
+      "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

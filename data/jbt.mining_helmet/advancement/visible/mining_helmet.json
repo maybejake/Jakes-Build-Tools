@@ -6,24 +6,24 @@
         "minecraft:item_model": "jbt:mining_helmet"
       }
     },
-    "title": {
-      "translate": "jbt:adv_mining_helmet_title",
-      "fallback": "Lightheaded"
-    },
-    "description": {
-      "translate": "jbt:adv_mining_helmet_desc",
-      "fallback": "Light up the darkness by crafting a mining helmet"
-    },
+    "title": {"translate":"advancement.jbt.mining_helmet.title","fallback":"Lightheaded"},
+    "description": [{"translate":"advancement.jbt.mining_helmet.desc","fallback":"Light up the darkness by crafting a mining helmet"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.mining_helmet:mining_helmet"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"mining_helmet"}}
+            }
+          }
+        ]
       }
     }
   }

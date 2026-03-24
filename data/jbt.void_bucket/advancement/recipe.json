@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jbt.void_bucket:void_bucket"
+        ]
+    }
+}

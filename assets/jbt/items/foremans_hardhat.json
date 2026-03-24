@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": [
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "jbt:item/foremans_hardhat_head"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "jbt:item/foremans_hardhat"
+    },
+    "property": "minecraft:display_context"
+  }
+}

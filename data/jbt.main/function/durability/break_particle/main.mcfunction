@@ -1,0 +1,2 @@
+data modify storage jbt:temp durability.break.item_model set from storage jbt:temp durability.break.components."minecraft:item_model"
+function jbt.main:durability/break_particle/macro with storage jbt:temp durability.break

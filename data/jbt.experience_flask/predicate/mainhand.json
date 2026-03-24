@@ -5,7 +5,7 @@
     "equipment": {
       "mainhand": {
         "predicates": {
-          "minecraft:custom_data": "{jbt_flask:1b}"
+          "minecraft:custom_data": {"jbt":{"id":"experience_flask"}}
         }
       }
     }

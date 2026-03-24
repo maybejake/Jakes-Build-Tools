@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jbt.item_magnet:item_magnet"
+        ]
+    }
+}

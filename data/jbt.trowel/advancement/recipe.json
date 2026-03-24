@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jbt.trowel:iron_trowel",
+            "jbt.trowel:diamond_trowel"
+        ]
+    }
+}

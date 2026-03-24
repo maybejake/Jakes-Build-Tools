@@ -1,27 +1,17 @@
-execute if entity @s[predicate=jbt.chisel:iron] if block ~ ~ ~ minecraft:obsidian run return fail
+execute unless predicate jbt.main:tiers/diamond/either if block ~ ~ ~ #minecraft:needs_diamond_tool run return fail
 execute if block ~ ~ ~ #jbt.main:unbreakable run return fail
 
 #clear storage
 data remove storage jbt:temp chisel
 
-#get slot
-execute store result score $chisel_slot jbt.dummy run data get entity @s SelectedItemSlot
-scoreboard players add $chisel_slot jbt.dummy 1
+#check if offhand empty
+execute unless items entity @s weapon.offhand * run return fail
 
-#cant be higher than slot 8
-execute if score $chisel_slot jbt.dummy matches 9.. run return fail
-
-#how?
-execute if score $chisel_slot jbt.dummy matches ..0 run return fail
-
-#store slot
-execute store result storage jbt:temp chisel.slot int 1 run scoreboard players get $chisel_slot jbt.dummy
+#check if offhand chisel
+execute if predicate jbt.chisel:offhand run return fail
 
 #get item
-function jbt.chisel:check/get_item with storage jbt:temp chisel
-
-#check if empty
-execute unless data storage jbt:temp chisel.item run return fail
+data modify storage jbt:temp chisel.item set from entity @s equipment.offhand
 
 #check if slot is valid
 execute unless function jbt.chisel:check/check_block run return fail
@@ -35,6 +25,8 @@ execute at @s run playsound minecraft:block.glass.break neutral @a ~ ~ ~ 0.32 2
 
 function jbt.chisel:block/place
 
-#handle durability
-execute if entity @s[gamemode=!creative] run function jbt.chisel:durability/handle
-execute if entity @s[gamemode=creative] run function jbt.chisel:durability/modify
+swing @s mainhand
+
+#durability
+execute if entity @s[gamemode=creative] run return fail
+function jbt.main:durability/mainhand/handle

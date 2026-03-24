@@ -5,14 +5,16 @@ execute unless block ~ ~ ~ #jbt.main:grass/both run return fail
 data remove storage jbt:temp grass
 
 #store damage
-execute if entity @s[tag=jbt_grass_mainhand] run data modify storage jbt:temp grass.components set from entity @s SelectedItem.components
-execute if entity @s[tag=jbt_grass_offhand] run data modify storage jbt:temp grass.components set from entity @s equipment.offhand.components
+execute if predicate jbt.grass_starter:mainhand run data modify storage jbt:temp grass.components set from entity @s SelectedItem.components
+execute if predicate jbt.grass_starter:offhand unless predicate jbt.grass_starter:mainhand run data modify storage jbt:temp grass.components set from entity @s equipment.offhand.components
 
 scoreboard players set $damage jbt.dummy 0
 execute store result score $damage jbt.dummy run data get storage jbt:temp grass.components."minecraft:damage"
 
 scoreboard players set $max_damage jbt.dummy 0
 execute store result score $max_damage jbt.dummy run data get storage jbt:temp grass.components."minecraft:max_damage"
+
+function jbt.grass_starter:swing
 
 execute if block ~ ~ ~ #jbt.main:grass/convert unless score $damage jbt.dummy = $max_damage jbt.dummy run return run function jbt.grass_starter:convert/handle
 execute if block ~ ~ ~ #jbt.main:grass/replenish unless score $damage jbt.dummy matches 0 run function jbt.grass_starter:replenish/handle

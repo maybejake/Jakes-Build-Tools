@@ -6,24 +6,24 @@
         "minecraft:item_model": "jbt:rope_ladder"
       }
     },
-    "title": {
-      "translate": "jbt:adv_rope_ladder_title",
-      "fallback": "A Step Down"
-    },
-    "description": {
-      "translate": "jbt:adv_rope_ladder_desc",
-      "fallback": "Descend faster by crafting rope ladders"
-    },
+    "title": {"translate":"advancement.jbt.rope_ladder.title","fallback":"A Step Down"},
+    "description": [{"translate":"advancement.jbt.rope_ladder.desc","fallback":"Descend faster by crafting rope ladders"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.rope_ladder:rope_ladder"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"rope_ladder"}}
+            }
+          }
+        ]
       }
     }
   }

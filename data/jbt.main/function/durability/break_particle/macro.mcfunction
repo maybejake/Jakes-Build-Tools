@@ -1,0 +1,2 @@
+$execute if data storage jbt:temp durability.break.item_model at @s anchored eyes run return run particle minecraft:item{item:{id:"$(id)",components:{"minecraft:item_model":"$(item_model)"}}} ^ ^-0.35 ^0.65 0.1 0.1 0.1 0.06 10 force
+$execute at @s anchored eyes run particle minecraft:item{item:{id:"$(id)"}} ^ ^-0.35 ^0.65 0.1 0.1 0.1 0.06 10 force

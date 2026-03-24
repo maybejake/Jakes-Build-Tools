@@ -8,7 +8,7 @@
         "equipment": {
           "mainhand": {
             "predicates": {
-              "minecraft:custom_data": "{jbt_magnet:1b}"
+              "minecraft:custom_data": {"jbt":{"id":"item_magnet"}}
             }
           }
         }
@@ -21,7 +21,7 @@
         "equipment": {
           "offhand": {
             "predicates": {
-              "minecraft:custom_data": "{jbt_magnet:1b}"
+              "minecraft:custom_data": {"jbt":{"id":"item_magnet"}}
             }
           }
         }

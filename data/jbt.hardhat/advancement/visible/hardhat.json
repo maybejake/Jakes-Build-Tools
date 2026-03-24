@@ -6,24 +6,24 @@
         "minecraft:item_model": "jbt:hardhat"
       }
     },
-    "title": {
-      "translate": "jbt:adv_hardhat_title",
-      "fallback": "OSHA Compliant"
-    },
-    "description": {
-      "translate": "jbt:adv_hardhat_desc",
-      "fallback": "Reach further and feel safer by crafting a hardhat"
-    },
+    "title": {"translate":"advancement.jbt.hardhat.title","fallback":"OSHA Compliant"},
+    "description": [{"translate":"advancement.jbt.hardhat.desc","fallback":"Reach further and feel safer by crafting a hardhat"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.hardhat:hardhat"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"hardhat"}}
+            }
+          }
+        ]
       }
     }
   }

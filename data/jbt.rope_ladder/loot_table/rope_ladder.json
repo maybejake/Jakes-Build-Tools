@@ -10,9 +10,10 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"jbt:ladder","fallback":"Rope Ladder"},
+                "minecraft:item_name": {"translate":"item.jbt.rope_ladder","fallback":"Rope Ladder"},
                 "minecraft:item_model": "jbt:rope_ladder",
-                "minecraft:custom_data": {"jbt_ladder":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}
+                "minecraft:custom_data": {"jbt":{"id":"rope_ladder"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}]
               }
             }
           ]

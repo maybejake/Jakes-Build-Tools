@@ -1,30 +1,30 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:experience_flask_3",
         "minecraft:enchantment_glint_override": true
       }
     },
-    "title": {
-      "translate": "jbt:adv_experience_flask_title",
-      "fallback": "Keep It Secret, Keep It Safe"
-    },
-    "description": {
-      "translate": "jbt:adv_experience_flask_desc",
-      "fallback": "Keep your experience safe by crafting an experience flask"
-    },
+    "title": {"translate":"advancement.jbt.experience_flask.title","fallback":"Keep It Secret, Keep It Safe"},
+    "description": [{"translate":"advancement.jbt.experience_flask.desc","fallback":"Keep your experience safe by crafting an experience flask"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.experience_flask:experience_flask"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"experience_flask"}}
+            }
+          }
+        ]
       }
     }
   }

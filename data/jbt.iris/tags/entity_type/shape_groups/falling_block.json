@@ -7,6 +7,14 @@
         {
             "id": "minecraft:tnt",
             "required": false
+        },
+        {
+            "id": "minecraft:nautilus",
+            "required": false
+        },
+        {
+            "id": "minecraft:nautilus",
+            "required": false
         }
     ]
 }

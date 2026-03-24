@@ -7,5 +7,5 @@ execute if score @s jbt.timer matches 5 run playsound minecraft:block.bamboo.bre
 execute if score @s jbt.timer matches 6 run playsound minecraft:block.bamboo.break neutral @a ~ ~ ~ 1 0.2
 execute if score @s jbt.timer matches 7 run playsound minecraft:block.bamboo.break neutral @a ~ ~ ~ 1 0.4
 execute if score @s jbt.timer matches 8 run playsound minecraft:block.bamboo.break neutral @a ~ ~ ~ 1 0
-execute if score @s jbt.timer matches 8.. run tag @s remove jbt_ladder_stand_new
+execute if score @s jbt.timer matches 8.. run tag @s remove jbt.ladder_marker_new
 execute if score @s jbt.timer matches 8.. run scoreboard players reset @s jbt.timer

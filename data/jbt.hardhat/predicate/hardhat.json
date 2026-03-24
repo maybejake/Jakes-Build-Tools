@@ -5,18 +5,7 @@
     "equipment": {
       "head": {
         "predicates": {
-          "minecraft:attribute_modifiers": {
-            "modifiers": {
-              "contains": [
-                {
-                  "attribute": "minecraft:block_interaction_range",
-                  "id": "jbt_hardhat_reach",
-                  "operation": "add_value",
-                  "slot": "head"
-                }
-              ]
-            }
-          }
+          "minecraft:custom_data": {"jbt":{"id":"hardhat"}}
         }
       }
     }

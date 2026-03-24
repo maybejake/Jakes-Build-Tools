@@ -6,24 +6,24 @@
         "minecraft:item_model": "jbt:hammer"
       }
     },
-    "title": {
-      "translate": "jbt:adv_hammer_title",
-      "fallback": "This Is Not a Drill"
-    },
-    "description": {
-      "translate": "jbt:adv_hammer_desc",
-      "fallback": "Mine more by crafting a hammer"
-    },
+    "title": {"translate":"advancement.jbt.hammer.title","fallback":"This Is Not a Drill"},
+    "description": [{"translate":"advancement.jbt.hammer.desc","fallback":"Mine more by crafting a hammer"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.hammer:hammer"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"hammer"}}
+            }
+          }
+        ]
       }
     }
   }

@@ -8,7 +8,7 @@
         "equipment": {
           "mainhand": {
             "predicates": {
-              "minecraft:custom_data": "{jbt_ladder:1b}"
+              "minecraft:custom_data": {"jbt":{"id":"rope_ladder"}}
             }
           }
         }
@@ -21,7 +21,7 @@
         "equipment": {
           "offhand": {
             "predicates": {
-              "minecraft:custom_data": "{jbt_ladder:1b}"
+              "minecraft:custom_data": {"jbt":{"id":"rope_ladder"}}
             }
           }
         }

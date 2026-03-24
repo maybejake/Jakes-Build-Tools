@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jbt.mining_helmet:mining_helmet"
+        ]
+    }
+}

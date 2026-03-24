@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jbt.tape_measure:tape_measure"
+        ]
+    }
+}

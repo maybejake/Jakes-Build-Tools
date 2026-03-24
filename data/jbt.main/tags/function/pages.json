@@ -1,0 +1,66 @@
+{"replace":false,"values":[
+    {
+        "id": "jbt.main:book/pages/front/register",
+        "required": false
+    },
+    {
+        "id": "jbt.block_wrench:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.chisel:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.experience_flask:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.grass_starter:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.hammer:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.hardhat:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.item_magnet:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.mining_helmet:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.mob_bag:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.rope_ladder:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.tape_measure:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.trowel:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.void_bucket:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.void_bundle:page/register",
+        "required": false
+    },
+    {
+        "id": "jbt.main:book/pages/back/register",
+        "required": false
+    }
+]}

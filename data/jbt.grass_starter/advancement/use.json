@@ -1,0 +1,18 @@
+{
+  "parent": "jbt.main:cooldown",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"jbt":{"id":"grass_starter"}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "jbt.grass_starter:effect"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "jbt.chisel:iron_chisel",
+            "jbt.chisel:diamond_chisel"
+        ]
+    }
+}

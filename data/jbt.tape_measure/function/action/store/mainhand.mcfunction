@@ -1,3 +1,2 @@
-$item modify entity @s weapon.mainhand [{"function": "minecraft:set_custom_data","tag": "{jbt_tape_open:1b,jbt_x:$(x),jbt_y:$(y),jbt_z:$(z),jbt_tape_id:$(id)}"},{"function": "minecraft:set_lore","entity": "this","lore": [{"text": "$(x), $(y), $(z)","color":"blue","italic":false}],"mode": "replace_all"},{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:tape_measure_out"}}]
-
-function jbt.tape_measure:sounds/out
+$item modify entity @s weapon.mainhand [{"function":"minecraft:set_custom_data","tag":{jbt:{id:"tape_measure",x:$(x),y:$(y),z:$(z),uid:$(id),open:true}}},{"function":"minecraft:set_lore","entity":"this","lore":[{"text":"$(x), $(y), $(z)","color":"blue","italic":false},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],"mode": "replace_all"},{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:tape_measure_out"}}]
+$title @s actionbar {"text":"$(x), $(y), $(z)"}

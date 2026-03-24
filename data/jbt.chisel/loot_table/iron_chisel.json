@@ -5,17 +5,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
+          "name": "minecraft:poisonous_potato",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {"translate":"jbt:iron_chisel","fallback":"Iron Chisel"},
+                "minecraft:item_name": {"translate":"item.jbt.iron_chisel","fallback":"Iron Chisel"},
                 "minecraft:item_model": "jbt:iron_chisel",
                 "minecraft:max_damage": 350,
-                "minecraft:custom_data": {"jbt_chisel":true,"jbt_chisel_iron":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"jbt":{"id":"chisel","tier":"iron"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:repairable": {"items":"minecraft:iron_ingot"},
-                "minecraft:enchantable": {"value":9}
+                "minecraft:enchantable": {"value":9},
+                "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+                "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
+                "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
+                "minecraft:max_stack_size": 1
               }
             }
           ]

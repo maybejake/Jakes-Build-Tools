@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:diamond_trowel"
       }
     },
-    "title": {
-      "translate": "jbt:adv_diamond_trowel_title",
-      "fallback": "Texturing Made Easier"
-    },
-    "description": {
-      "translate": "jbt:adv_diamond_trowel_desc",
-      "fallback": "Craft a diamond trowel"
-    },
+    "title": {"translate":"advancement.jbt.diamond_trowel.title","fallback":"Texturing Made Easier"},
+    "description": [{"translate":"advancement.jbt.diamond_trowel.desc","fallback":"Craft a diamond trowel"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.trowel:visible/iron_trowel",
+  "parent": "jbt.trowel:visible/trowel",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.trowel:diamond_trowel"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"trowel","tier":"diamond"}}
+            }
+          }
+        ]
       }
     }
   }

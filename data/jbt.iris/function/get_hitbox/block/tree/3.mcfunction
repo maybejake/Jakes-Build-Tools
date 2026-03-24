@@ -21,6 +21,4 @@ execute if block ~ ~ ~ minecraft:pale_moss_carpet run function jbt.iris:get_hitb
 execute if block ~ ~ ~ minecraft:piglin_head run function jbt.iris:get_hitbox/block/shape_groups/piglin_head
 execute if block ~ ~ ~ minecraft:piglin_wall_head run function jbt.iris:get_hitbox/block/shape_groups/piglin_wall_head
 execute if block ~ ~ ~ #jbt.iris:shape_groups/pink_petals run function jbt.iris:get_hitbox/block/shape_groups/pink_petals
-
-# broken out into its own function for pre-1.21.9 compat
-function jbt.iris:get_hitbox/block/shape_groups/iron_chain
+execute if block ~ ~ ~ #minecraft:chains run function jbt.iris:get_hitbox/block/shape_groups/chains

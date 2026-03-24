@@ -6,7 +6,7 @@
           "conditions": {
               "item": {
                   "predicates": {
-                      "minecraft:custom_data": "{jbt_bundle:1b}"
+                      "minecraft:custom_data": {"jbt":{"id":"void_bundle"}}
                   }
               }
           }

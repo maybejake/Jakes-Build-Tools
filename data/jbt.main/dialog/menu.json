@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:multi_action",
+    "title": {"translate":"jbt.dialog.title"},
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {"translate":"jbt.dialog.description"},
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate":"jbt.dialog.info",
+        "color": "gray",
+        "with": [
+          {"translate": "jbt.version"}
+        ]
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": {"translate":"jbt.dialog.website"},
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/jakes-build-tools"
+      }
+    },
+    {
+      "label": {"translate":"jbt.dialog.issues"},
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/maybejake/Jakes-Build-Tools/issues"
+      }
+    },
+    {
+      "label": {"translate":"jbt.dialog.wiki"},
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/maybejake/Jakes-Build-Tools/wiki"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 212
+  },
+  "after_action": "wait_for_response"
+}

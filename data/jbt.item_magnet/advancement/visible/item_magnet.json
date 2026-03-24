@@ -6,24 +6,24 @@
         "minecraft:item_model": "jbt:item_magnet"
       }
     },
-    "title": {
-      "translate": "jbt:adv_item_magnet_title",
-      "fallback": "Attractive Personality"
-    },
-    "description": {
-      "translate": "jbt:adv_item_magnet_desc",
-      "fallback": "Pull items towards you by crafting an item magnet"
-    },
+    "title": {"translate":"advancement.jbt.item_magnet.title","fallback":"Attractive Personality"},
+    "description": [{"translate":"advancement.jbt.item_magnet.desc","fallback":"Pull items towards you by crafting an item magnet"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.item_magnet:item_magnet"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"item_magnet"}}
+            }
+          }
+        ]
       }
     }
   }

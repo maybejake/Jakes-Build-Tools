@@ -1,1 +1,0 @@
-$data modify storage jbt:temp chisel.item set from entity @s Inventory[{Slot:$(slot)b}]

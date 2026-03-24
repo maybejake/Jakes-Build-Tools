@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:diamond_chisel"
       }
     },
-    "title": {
-      "translate": "jbt:adv_diamond_chisel_title",
-      "fallback": "Redecorator"
-    },
-    "description": {
-      "translate": "jbt:adv_diamond_chisel_desc",
-      "fallback": "Craft a diamond chisel"
-    },
+    "title": {"translate":"advancement.jbt.diamond_chisel.title","fallback":"Redecorator"},
+    "description": [{"translate":"advancement.jbt.diamond_chisel.desc","fallback":"Craft a diamond chisel"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.chisel:visible/iron_chisel",
+  "parent": "jbt.chisel:visible/chisel",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.chisel:diamond_chisel"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"chisel","tier":"diamond"}}
+            }
+          }
+        ]
       }
     }
   }

@@ -1,0 +1,18 @@
+{
+  "parent": "jbt.main:cooldown",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"jbt":{"id":"chisel"}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "jbt.chisel:effect"
+  }
+}

@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:item_model": "jbt:wrench"
+        "minecraft:item_model": "jbt:block_wrench"
       }
     },
-    "title": {
-      "translate": "jbt:adv_wrench_title",
-      "fallback": "Gut-wrenching"
-    },
-    "description": {
-      "translate": "jbt:adv_wrench_desc",
-      "fallback": "Rotate blocks by crafting a block wrench"
-    },
+    "title": {"translate":"advancement.jbt.block_wrench.title","fallback":"Gut-wrenching"},
+    "description": [{"translate":"advancement.jbt.block_wrench.desc","fallback":"Rotate blocks by crafting a block wrench"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.block_wrench:block_wrench"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"block_wrench"}}
+            }
+          }
+        ]
       }
     }
   }

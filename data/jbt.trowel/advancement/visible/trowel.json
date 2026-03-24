@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato",
+      "components": {
+        "minecraft:item_model": "jbt:iron_trowel"
+      }
+    },
+    "title": [{"translate":"advancement.jbt.iron_trowel.title","fallback":"Texturing Made Easy"}],
+    "description": [{"translate":"advancement.jbt.iron_trowel.desc","fallback":"Place random blocks from your hotbar by crafting a trowel"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "jbt.main:visible/owners_manual",
+  "criteria": {
+    "": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"trowel"}}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

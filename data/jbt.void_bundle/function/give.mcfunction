@@ -1,1 +1,0 @@
-give @s minecraft:bundle[minecraft:item_name={"translate":"jbt:bundle","fallback":"Void Bundle"},minecraft:item_model="jbt:void_bundle",minecraft:custom_data={"jbt_bundle":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},minecraft:food={nutrition:0,saturation:0f,eat_seconds:2147483648f,can_always_eat:true}]

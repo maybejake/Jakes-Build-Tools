@@ -1,0 +1,2 @@
+execute unless score @s jbt.doodle matches 1.. store result score @s jbt.doodle run random value 1..14
+execute store result storage jbt:temp book.page_data.doodle int 1 run scoreboard players get @s jbt.doodle

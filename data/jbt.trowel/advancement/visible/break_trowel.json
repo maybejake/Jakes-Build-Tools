@@ -3,15 +3,9 @@
     "icon": {
       "id": "minecraft:netherite_block"
     },
-    "title": {
-      "translate": "jbt:adv_break_trowel_title",
-      "fallback": "Master Builder"
-    },
+    "title": {"translate":"advancement.jbt.break_trowel.title","fallback":"Master Builder"},
     "frame": "challenge",
-    "description": {
-      "translate": "jbt:adv_break_trowel_desc",
-      "fallback": "Break a diamond trowel enchanted with unbreaking III"
-    },
+    "description": [{"translate":"advancement.jbt.break_trowel.desc","fallback":"Break a diamond trowel enchanted with unbreaking III"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -24,7 +18,7 @@
   },
   "rewards": {
     "loot": [
-      "jbt.hardhat:foreman_hardhat"
+      "jbt.hardhat:foremans_hardhat"
     ]
   }
 }

@@ -17,7 +17,7 @@
             "required": false
         },
         {
-            "id": "minecraft:iron_chain",
+            "id": "#minecraft:chains",
             "required": false
         },
         {

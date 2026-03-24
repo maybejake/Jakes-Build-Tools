@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:grass_starter"
       }
     },
-    "title": {
-      "translate": "jbt:adv_grass_starter_title",
-      "fallback": "A Green New World"
-    },
-    "description": {
-      "translate": "jbt:adv_grass_starter_desc",
-      "fallback": "Convert dirt to grass by crafting a grass starter"
-    },
+    "title": {"translate":"advancement.jbt.grass_starter.title","fallback":"A Green New World"},
+    "description": [{"translate":"advancement.jbt.grass_starter.desc","fallback":"Convert dirt to grass by crafting a grass starter"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.grass_starter:grass_starter"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"grass_starter"}}
+            }
+          }
+        ]
       }
     }
   }

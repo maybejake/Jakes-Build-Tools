@@ -1,16 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:iron_trowel"
       }
     },
-    "title": "Jake's Build Tools",
-    "description": {
-      "translate": "jbt:adv_root_desc",
-      "fallback": "Tools to make building easy!"
-    },
+    "title": {"translate":"advancement.jbt.root.title","fallback":"Construction"},
+    "description": [{"translate":"advancement.jbt.root.desc","fallback":"Tools to make building easy!"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "background": "minecraft:block/stone_bricks",
     "show_toast": false,
     "announce_to_chat": false

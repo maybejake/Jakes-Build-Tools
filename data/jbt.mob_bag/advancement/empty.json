@@ -1,0 +1,18 @@
+{
+  "parent": "jbt.main:cooldown",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"jbt":{"id":"mob_bag","filled":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "jbt.mob_bag:empty"
+  }
+}

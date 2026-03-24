@@ -1,0 +1,18 @@
+{
+  "parent": "jbt.main:cooldown",
+  "criteria": {
+      "requirement": {
+          "trigger": "minecraft:using_item",
+          "conditions": {
+              "item": {
+                  "predicates": {
+                      "minecraft:custom_data": {"jbt":{"id":"experience_flask","corked":true}}
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "jbt.experience_flask:throw"
+  }
+}

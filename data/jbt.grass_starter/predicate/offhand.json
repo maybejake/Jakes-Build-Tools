@@ -5,7 +5,7 @@
     "equipment": {
       "offhand": {
         "predicates": {
-          "minecraft:custom_data": "{jbt_grass:1b}"
+          "minecraft:custom_data": {"jbt":{"id":"grass_starter"}}
         }
       }
     }

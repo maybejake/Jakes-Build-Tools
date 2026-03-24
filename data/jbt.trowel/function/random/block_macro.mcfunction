@@ -7,6 +7,9 @@ $execute if items entity @s hotbar.$(slot) *[minecraft:container,!minecraft:cont
 #check blacklists
 $execute if items entity @s hotbar.$(slot) #jbt.main:blacklist run return fail
 
+#ban items with custom data
+$execute if items entity @s hotbar.$(slot) *[minecraft:custom_data] run return fail
+
 $setblock -20000000 -64 98 $(id)
 
 setblock -20000000 -64 98 bedrock

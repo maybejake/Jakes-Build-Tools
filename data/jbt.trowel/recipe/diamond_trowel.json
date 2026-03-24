@@ -10,15 +10,20 @@
     "d": "minecraft:diamond"
   },
   "result": {
-    "id": "minecraft:warped_fungus_on_a_stick",
+    "id": "minecraft:poisonous_potato",
     "count": 1,
     "components": {
-      "minecraft:item_name": {"translate":"jbt:diamond_trowel","fallback":"Diamond Trowel"},
+      "minecraft:item_name": {"translate":"item.jbt.diamond_trowel","fallback":"Diamond Trowel"},
       "minecraft:item_model": "jbt:diamond_trowel",
       "minecraft:max_damage": 4500,
-      "minecraft:custom_data": {"jbt_trowel":true,"jbt_trowel_diamond":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+      "minecraft:custom_data": {"jbt":{"id":"trowel","tier":"diamond"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:repairable": {"items":"minecraft:diamond"},
-      "minecraft:enchantable": {"value":10}
+      "minecraft:enchantable": {"value":10},
+      "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
+      "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+      "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
+      "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
+      "minecraft:max_stack_size": 1
     }
   }
 }

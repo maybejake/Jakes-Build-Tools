@@ -1,0 +1,5 @@
+function jbt.tape_measure:sounds/reset
+function jbt.tape_measure:selection/clean
+
+execute if predicate jbt.tape_measure:mainhand run return run item modify entity @s weapon.mainhand [{"function":"minecraft:set_custom_data","tag":{jbt:{id:"tape_measure",open:false}}},{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],"mode":"replace_all"},{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:tape_measure_in"}}]
+execute if predicate jbt.tape_measure:offhand run item modify entity @s weapon.offhand [{"function":"minecraft:set_custom_data","tag":{jbt:{id:"tape_measure",open:false}}},{"function":"minecraft:set_lore","entity":"this","lore":[{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],"mode":"replace_all"},{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:tape_measure_in"}}]

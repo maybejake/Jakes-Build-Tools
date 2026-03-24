@@ -1,2 +1,0 @@
-execute if entity @s[tag=jbt_tape_mainhand] run function jbt.tape_measure:store/mainhand with storage jbt:temp tape
-execute if entity @s[tag=jbt_tape_offhand] run function jbt.tape_measure:store/offhand with storage jbt:temp tape

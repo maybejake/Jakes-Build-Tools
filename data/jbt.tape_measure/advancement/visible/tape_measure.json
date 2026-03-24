@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:tape_measure_in"
       }
     },
-    "title": {
-      "translate": "jbt:adv_tape_measure_title",
-      "fallback": "Going the Distance"
-    },
-    "description": {
-      "translate": "jbt:adv_tape_measure_desc",
-      "fallback": "Measure distance with precision by crafting a tape measure"
-    },
+    "title": {"translate":"advancement.jbt.tape_measure.title","fallback":"Going the Distance"},
+    "description": [{"translate":"advancement.jbt.tape_measure.desc","fallback":"Measure distance with precision by crafting a tape measure"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.tape_measure:tape_measure"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"tape_measure"}}
+            }
+          }
+        ]
       }
     }
   }

@@ -19,5 +19,6 @@ execute if data storage jbt.iris:settings Blacklist if score $is_blacklisted jbt
 
 # See if the block is hit
 function jbt.iris:get_hitbox/block
+
 execute unless data storage jbt.iris:data Shape[0] run return fail
 return run function jbt.iris:raycast/check_intersection/loop

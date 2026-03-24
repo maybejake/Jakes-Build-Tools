@@ -1,6 +1,3 @@
-#cooldown
-tag @s add jbt_bag_cooldown
-scoreboard players set @s jbt.cooldown 10
-
-$execute if entity @s[predicate=jbt.mob_bag:mainhand] run return run item modify entity @s weapon.mainhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_full"}},{"function":"minecraft:set_custom_data","tag":"{jbt_filled:1b,jbt_id:$(id)}"},{"function": "minecraft:set_lore","entity":"this","lore":[{"selector":"@e[tag=jbt_bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],"mode":"replace_all"}]
-$execute if entity @s[predicate=jbt.mob_bag:offhand] run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_full"}},{"function":"minecraft:set_custom_data","tag":"{jbt_filled:1b,jbt_id:$(id)}"},{"function": "minecraft:set_lore","entity":"this","lore":[{"selector":"@e[tag=jbt_bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],"mode":"replace_all"}]
+function jbt.mob_bag:swing
+$execute if predicate jbt.mob_bag:mainhand run return run item modify entity @s weapon.mainhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_full"}},{"function":"minecraft:set_custom_data","tag":{jbt:{id:"mob_bag",filled:true,uid:$(id)}}},{"function": "minecraft:set_lore","entity":"this","lore":[{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],"mode":"insert"}]
+$execute if predicate jbt.mob_bag:offhand run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_full"}},{"function":"minecraft:set_custom_data","tag":{jbt:{id:"mob_bag",filled:true,uid:$(id)}}},{"function": "minecraft:set_lore","entity":"this","lore":[{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],"mode":"insert"}]

@@ -1,29 +1,29 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
+      "id": "minecraft:poisonous_potato",
       "components": {
         "minecraft:item_model": "jbt:mob_bag_empty"
       }
     },
-    "title": {
-      "translate": "jbt:adv_mob_bag_title",
-      "fallback": "Like a Lasso"
-    },
-    "description": {
-      "translate": "jbt:adv_mob_bag_desc",
-      "fallback": "Move passive mobs with ease by crafting a mob bag"
-    },
+    "title": {"translate":"advancement.jbt.mob_bag.title","fallback":"Like a Lasso"},
+    "description": [{"translate":"advancement.jbt.mob_bag.desc","fallback":"Move passive mobs with ease by crafting a mob bag"},{"text":"\n\n"},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "jbt.main:visible/root",
+  "parent": "jbt.main:visible/owners_manual",
   "criteria": {
     "": {
-      "trigger": "minecraft:recipe_crafted",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "jbt.mob_bag:mob_bag"
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {"jbt":{"id":"mob_bag"}}
+            }
+          }
+        ]
       }
     }
   }

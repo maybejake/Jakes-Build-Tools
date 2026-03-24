@@ -1,6 +1,3 @@
-#click check
-execute if score @s jbt.click_check matches 1.. at @s run function jbt.main:click_check
-
 #hammer check
 execute if score @s jbt.hammer_check matches 1.. at @s run function jbt.hammer:check
 
@@ -21,3 +18,7 @@ function jbt.mining_helmet:check
 
 #cooldowns
 execute if score @s jbt.cooldown matches 1.. at @s run function jbt.main:cooldown
+
+execute if score @s jbt.use_book matches 1.. run function jbt.main:book/check
+
+execute if score @s jbt.book_buttons matches 1.. run function jbt.main:book/buttons/switch

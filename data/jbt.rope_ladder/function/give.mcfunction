@@ -1,1 +1,0 @@
-give @s minecraft:ladder[minecraft:item_name={"translate":"jbt:ladder","fallback":"Rope Ladder"},minecraft:item_model="jbt:rope_ladder",minecraft:custom_data={"jbt_ladder":true,"smithed":{"ignore":{"functionality":true,"crafting":true}}}]

@@ -1,6 +1,6 @@
-execute if entity @s[gamemode=!creative] run function jbt.rope_ladder:remove
-scoreboard players add @n[type=minecraft:marker,tag=jbt_ladder_stand_new] jbt.ladder_count 1
+execute if entity @s[gamemode=!creative] run clear @s minecraft:ladder[minecraft:custom_data~{jbt:{id:"rope_ladder"}}] 1
 
 function jbt.rope_ladder:place/check
+scoreboard players add $ladder_count jbt.dummy 1
 
-execute if block ~ ~-1 ~ #jbt.main:ladder if score $ladder_max jbt.dummy matches 1.. positioned ~ ~-1 ~ run function jbt.rope_ladder:loop
+execute if block ~ ~-1 ~ #jbt.main:ladder if score $ladder_max jbt.dummy > $ladder_count jbt.dummy positioned ~ ~-1 ~ run function jbt.rope_ladder:loop
