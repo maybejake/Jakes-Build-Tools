@@ -8,15 +8,15 @@ $data modify storage jbt:temp register.dialog set value { \
       "contents": [{ \
             "translate":"jbt.book.page_template","font":"jbt:base","shadow_color":0,"color":"white","with":[ \
                 {"translate":"item.jbt.experience_flask","color":"#f8f4ed","font":"minecraft:default"}, \
-                {"translate":"jbt.book.item_slot_row_1","with":[{"translate":"jbt.book.tinted_glass_row_1"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_1","with":[{"translate":"jbt.book.glass_row_1"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
                 {"translate":"jbt.book.item_slot_row_1","with":[{"translate":"jbt.book.terracotta_row_1"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.terracotta"}}}, \
-                {"translate":"jbt.book.item_slot_row_1","with":[{"translate":"jbt.book.tinted_glass_row_1"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
-                {"translate":"jbt.book.item_slot_row_2","with":[{"translate":"jbt.book.tinted_glass_row_2"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_1","with":[{"translate":"jbt.book.glass_row_1"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_2","with":[{"translate":"jbt.book.glass_row_2"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
                 {"translate":"jbt.book.item_slot_row_2","with":[{"translate":"jbt.book.experience_bottle_row_2"}],"hover_event":{"action":"show_text","value":{"translate":"item.minecraft.experience_bottle"}}}, \
-                {"translate":"jbt.book.item_slot_row_2","with":[{"translate":"jbt.book.tinted_glass_row_2"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
-                {"translate":"jbt.book.item_slot_row_3","with":[{"translate":"jbt.book.tinted_glass_row_3"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
-                {"translate":"jbt.book.item_slot_row_3","with":[{"translate":"jbt.book.tinted_glass_row_3"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
-                {"translate":"jbt.book.item_slot_row_3","with":[{"translate":"jbt.book.tinted_glass_row_3"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.tinted_glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_2","with":[{"translate":"jbt.book.glass_row_2"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_3","with":[{"translate":"jbt.book.glass_row_3"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_3","with":[{"translate":"jbt.book.glass_row_3"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
+                {"translate":"jbt.book.item_slot_row_3","with":[{"translate":"jbt.book.glass_row_3"}],"hover_event":{"action":"show_text","value":{"translate":"block.minecraft.glass"}}}, \
                 {"translate":"jbt.book.experience_flask_diagram"}, \
                 {"translate":"jbt.book.experience_flask_description","color":"#4469a4","font":"minecraft:default"}, \
                 {"translate":"jbt.book.bottom_line","with":[{"translate":"jbt.book.previous_page","hover_event":{"action":"show_text","value":{"translate":"jbt.book.previous_page.hover"}},"click_event":{"action":"run_command","command":"trigger jbt.book_buttons set 9901"}},{"translate":"jbt.book.page_number.$(page_number_width)","font":"jbt:small_text","with":[{"text":"$(page_number)","color":"#f8f4ed"}]},{"translate":"jbt.book.next_page","hover_event":{"action":"show_text","value":{"translate":"jbt.book.next_page.hover"}},"click_event":{"action":"run_command","command":"trigger jbt.book_buttons set 9902"}}]} \
