@@ -27,6 +27,8 @@ For details on function and recipes, check out the [wiki](https://github.com/may
 It's packaged with the datapack! The zip file you download can be used interchangeably, so just drop it into your resourcepack and datapack folders and you'll be good to go!
 ### Why can't I see the items in the creative menu or in REI/JEI/NEI?
 This is a datapack with re-packaged mod versions for convenience of installation. It is currently not possible for custom items added by datapacks to be added to the creative menu or detected by any REI-like mod.
+### What are the recipes?
+The datapack adds the recipes to your crafting table recipe book by default, you can find them all there. Otherwise, check out the [wiki](https://github.com/maybejake/Jakes-Build-Tools/wiki)!
 
 # Thanks
 
