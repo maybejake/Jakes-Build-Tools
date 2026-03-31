@@ -11,6 +11,4 @@ execute if entity @s[type=#jbt.iris:shape_groups/dragon_fireball] run function j
 execute if entity @s[type=#jbt.iris:shape_groups/drowned] run function jbt.iris:get_hitbox/entity/shape_groups/drowned
 execute if entity @s[type=#jbt.iris:shape_groups/egg] run function jbt.iris:get_hitbox/entity/shape_groups/egg
 execute if entity @s[type=minecraft:elder_guardian] run function jbt.iris:get_hitbox/entity/shape_groups/elder_guardian
-
-# broken out into its own function for pre-1.21.9 compat
-function jbt.iris:get_hitbox/entity/shape_groups/copper_golem
+execute if entity @s[type=minecraft:copper_golem] run function jbt.iris:get_hitbox/entity/shape_groups/copper_golem
