@@ -2,7 +2,7 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "block": {
-      "blocks": "#jbt.main:blocks"
+      "blocks": "#minecraft:air"
     }
   }
 }

@@ -1,3 +1,5 @@
+execute if block ~ ~ ~ #jbt.main:unbreakable run return fail
+
 data remove storage jbt:temp wrench
 
 scoreboard players set $place_check jbt.dummy 0
