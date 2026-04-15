@@ -17,7 +17,7 @@
                 "minecraft:repairable": {"items":"minecraft:copper_ingot"},
                 "minecraft:enchantable": {"value":15},
                 "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
-                "minecraft:consumable": {"consume_seconds":2147483648,"animation":"none","sound":"intentionally_empty","has_consume_particles":false},
+                "minecraft:consumable": {"consume_seconds":2147483648,"animation":"bundle","sound":"intentionally_empty","has_consume_particles":false},
                 "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},
                 "minecraft:food": {"nutrition":0,"saturation":0,"can_always_eat":true},
                 "minecraft:max_stack_size": 1

@@ -1,4 +1,9 @@
-scoreboard players set @s jbt.cooldown 5
+scoreboard players set @s jbt.cooldown 2
+scoreboard players set @s[tag=jbt.using] jbt.cooldown 2
+execute if entity @s[tag=jbt.using] run return run tag @s remove jbt.using
+
+tag @s add jbt.using
+
 execute if entity @s[gamemode=adventure] run return fail
 
 data remove storage jbt.iris:settings Callback

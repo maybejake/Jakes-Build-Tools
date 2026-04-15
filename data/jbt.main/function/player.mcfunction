@@ -17,6 +17,7 @@ function jbt.hardhat:check
 function jbt.mining_helmet:check
 
 #cooldowns
+execute unless score @s[tag=jbt.using] jbt.cooldown matches 1.. run tag @s remove jbt.using
 execute if score @s jbt.cooldown matches 1.. at @s run function jbt.main:cooldown
 
 execute if score @s jbt.use_book matches 1.. run function jbt.main:book/check

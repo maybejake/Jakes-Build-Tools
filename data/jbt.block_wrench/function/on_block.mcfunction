@@ -4,7 +4,11 @@ data remove storage jbt:temp wrench
 
 scoreboard players set $place_check jbt.dummy 0
 
-function jbt.block_wrench:get_block
+
+# Clone target to overworld and get block
+clone ~ ~ ~ ~ ~ ~ to minecraft:overworld -20000000 -64 97
+execute in minecraft:overworld positioned -20000000 -64 97 run function jbt.block_wrench:get_block
+
 execute store success score $place_check jbt.dummy run function jbt.block_wrench:rotation/check with storage jbt:temp wrench
 
 execute if score $place_check jbt.dummy matches 1 run function jbt.block_wrench:particle with storage jbt:temp wrench
