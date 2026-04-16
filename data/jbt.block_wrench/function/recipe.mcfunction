@@ -1,1 +1,0 @@
-recipe give @s jbt.block_wrench:block_wrench

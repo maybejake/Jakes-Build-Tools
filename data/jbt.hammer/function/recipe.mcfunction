@@ -1,1 +1,0 @@
-recipe give @s jbt.hammer:hammer

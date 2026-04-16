@@ -1,1 +1,0 @@
-recipe give @s jbt.rope_ladder:rope_ladder

@@ -6,6 +6,7 @@
     },
     "rewards": {
         "recipes": [
+            "jbt.chisel:copper_chisel",
             "jbt.chisel:iron_chisel",
             "jbt.chisel:diamond_chisel"
         ]

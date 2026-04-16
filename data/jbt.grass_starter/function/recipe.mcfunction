@@ -1,1 +1,0 @@
-recipe give @s jbt.grass_starter:grass_starter
