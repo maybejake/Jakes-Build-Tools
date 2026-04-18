@@ -12,9 +12,9 @@ execute if score $levels jbt.dummy matches ..0 if score $points jbt.dummy matche
 execute store result storage jbt:temp flask.levels int 1 run scoreboard players get $levels jbt.dummy
 execute store result storage jbt:temp flask.points int 1 run scoreboard players get $points jbt.dummy
 
-playsound minecraft:item.bucket.fill neutral @a ~ ~1 ~ 1 1.5
-playsound minecraft:entity.illusioner.cast_spell neutral @a ~ ~1 ~ 0.2 2
-playsound minecraft:block.amethyst_block.hit neutral @a ~ ~1 ~ 1 0.5
+playsound minecraft:item.bucket.fill player @a ~ ~1 ~ 1 1.5
+playsound minecraft:entity.illusioner.cast_spell player @a ~ ~1 ~ 0.2 2
+playsound minecraft:block.amethyst_block.hit player @a ~ ~1 ~ 1 0.5
 
 experience set @s[gamemode=!creative] 0 points
 experience set @s[gamemode=!creative] 0 levels

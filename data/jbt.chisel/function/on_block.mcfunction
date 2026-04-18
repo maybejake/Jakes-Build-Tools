@@ -19,9 +19,9 @@ execute unless function jbt.chisel:check/check_block run return fail
 #check if block is the same
 execute unless function jbt.chisel:check/check_same run return fail
 
-execute at @s run playsound minecraft:block.nether_bricks.place neutral @a ~ ~ ~ 0.8 1.5
-execute at @s run playsound minecraft:block.stone.place neutral @a ~ ~ ~ 1 0.8
-execute at @s run playsound minecraft:block.glass.break neutral @a ~ ~ ~ 0.32 2
+execute at @s run playsound minecraft:block.nether_bricks.place player @a ~ ~ ~ 0.8 1.5
+execute at @s run playsound minecraft:block.stone.place player @a ~ ~ ~ 1 0.8
+execute at @s run playsound minecraft:block.glass.break player @a ~ ~ ~ 0.32 2
 
 function jbt.chisel:block/place
 

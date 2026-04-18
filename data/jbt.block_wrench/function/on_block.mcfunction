@@ -12,9 +12,9 @@ execute in minecraft:overworld positioned -20000000 -64 97 run function jbt.bloc
 execute store success score $place_check jbt.dummy run function jbt.block_wrench:rotation/check with storage jbt:temp wrench
 
 execute if score $place_check jbt.dummy matches 1 run function jbt.block_wrench:particle with storage jbt:temp wrench
-execute if score $place_check jbt.dummy matches 1 run playsound minecraft:entity.shulker.close neutral @a ~ ~ ~ 1 1
-execute if score $place_check jbt.dummy matches 1 run playsound minecraft:item.spyglass.use neutral @a ~ ~ ~ 0.4 1
-execute if score $place_check jbt.dummy matches 0 run return run playsound minecraft:block.bamboo_wood_button.click_off neutral @a ~ ~ ~ 1 0.7
+execute if score $place_check jbt.dummy matches 1 run playsound minecraft:entity.shulker.close player @a ~ ~ ~ 1 1
+execute if score $place_check jbt.dummy matches 1 run playsound minecraft:item.spyglass.use player @a ~ ~ ~ 0.4 1
+execute if score $place_check jbt.dummy matches 0 run return run playsound minecraft:block.bamboo_wood_button.click_off player @a ~ ~ ~ 1 0.7
 
 #swing
 function jbt.block_wrench:swing

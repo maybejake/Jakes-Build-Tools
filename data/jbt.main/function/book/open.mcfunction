@@ -17,7 +17,7 @@ execute store result storage jbt:temp book.current_page int 1 run scoreboard pla
 function jbt.main:book/get_page with storage jbt:temp book
 
 #make a funny little noise
-execute at @s run playsound item.book.page_turn neutral @s ~ ~ ~ 1 1
+execute at @s run playsound item.book.page_turn player @s ~ ~ ~ 1 1
 
 #open
 execute if data storage jbt:temp book.page_data.function run return run function jbt.main:book/page_function with storage jbt:temp book.page_data

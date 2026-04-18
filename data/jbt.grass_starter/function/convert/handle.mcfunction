@@ -4,7 +4,7 @@ execute if block ~ ~ ~ minecraft:rooted_dirt run setblock ~ ~ ~ minecraft:myceli
 execute if block ~ ~ ~ minecraft:netherrack unless predicate jbt.main:issneaking run setblock ~ ~ ~ minecraft:crimson_nylium replace
 execute if block ~ ~ ~ minecraft:netherrack if predicate jbt.main:issneaking run setblock ~ ~ ~ minecraft:warped_nylium replace
 particle minecraft:happy_villager ~ ~ ~ 0.37 0.40 0.37 0 30 force
-playsound minecraft:item.bone_meal.use neutral @a ~ ~ ~ 1 0.9
+playsound minecraft:item.bone_meal.use player @a ~ ~ ~ 1 0.9
 
 #handle durability
 execute if entity @s[gamemode=!creative] run function jbt.grass_starter:convert/durability/handle

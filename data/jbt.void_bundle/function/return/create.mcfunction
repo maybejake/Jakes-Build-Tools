@@ -1,5 +1,5 @@
-playsound minecraft:entity.puffer_fish.blow_out neutral @a ~ ~ ~ 0.6 1
-playsound minecraft:entity.illusioner.mirror_move neutral @a ~ ~ ~ 0.5 1.1
+playsound minecraft:entity.puffer_fish.blow_out player @a ~ ~ ~ 0.6 1
+playsound minecraft:entity.illusioner.mirror_move player @a ~ ~ ~ 0.5 1.1
 
 $execute anchored eyes run summon minecraft:item ^ ^-0.3 ^ {Item:$(item),Tags:["jbt.bundle_item"],PickupDelay:30}
 execute positioned 0.0 0.0 0.0 positioned ^ ^ ^0.4 summon minecraft:area_effect_cloud run data modify entity @n[tag=jbt.bundle_item] Motion set from entity @s Pos

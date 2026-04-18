@@ -10,8 +10,8 @@ function jbt.trowel:random/start
 #if no block is chosen, don't place anything
 execute unless data storage jbt:temp trowel.chosen_block run return fail
 
-execute at @s run playsound minecraft:block.deepslate.break neutral @a ~ ~ ~ 1 1.2
-execute at @s run playsound minecraft:block.gravel.break neutral @a ~ ~ ~ 0.1 1
+execute at @s run playsound minecraft:block.deepslate.break player @a ~ ~ ~ 1 1.2
+execute at @s run playsound minecraft:block.gravel.break player @a ~ ~ ~ 0.1 1
 
 function jbt.trowel:block/place
 

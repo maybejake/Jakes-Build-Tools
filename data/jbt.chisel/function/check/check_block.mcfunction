@@ -7,6 +7,9 @@ execute if items entity @s weapon.offhand *[minecraft:container,!minecraft:conta
 #check blacklists
 execute if items entity @s weapon.offhand #jbt.main:blacklist run return fail
 
+#check chisel banned items
+execute if items entity @s weapon.offhand #jbt.main:chisel_banned run return fail
+
 #ban items with custom data
 execute if items entity @s weapon.offhand *[minecraft:custom_data] run return fail
 
