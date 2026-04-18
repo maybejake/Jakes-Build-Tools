@@ -82,6 +82,18 @@
         "minecraft:small_amethyst_bud",
         "minecraft:medium_amethyst_bud",
         "minecraft:large_amethyst_bud",
-        "#minecraft:lanterns"
+        "#minecraft:lanterns",
+        "minecraft:flower_pot",
+        "minecraft:pointed_dripstone",
+        "minecraft:chorus_flower",
+        "minecraft:chorus_fruit",
+        "minecraft:chorus_plant",
+        "minecraft:nether_wart",
+        "minecraft:sniffer_egg",
+        "#minecraft:wooden_pressure_plates",
+        "minecraft:stone_pressure_plate",
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:dried_ghast"
     ]
 }
