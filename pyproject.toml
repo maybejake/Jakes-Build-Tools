@@ -1,0 +1,10 @@
+[project]
+name = "jakes-build-tools"
+version = "1.0"
+description = "The Jake's Build Tools repository"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beet>=0.115.0",
+    "mecha>=0.103.0",
+]

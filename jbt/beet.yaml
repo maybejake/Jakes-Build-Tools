@@ -1,0 +1,13 @@
+data_pack:
+  load: .
+
+resource_pack:
+  load:
+    - .
+
+pipeline:
+  - jbt.plugins.release
+  - mecha
+
+version: 5.0.5
+name: JakesBuildTools

@@ -1,8 +1,6 @@
 {
   "id": "jakes-build-tools",
   "pack":{
-    "max_format": 84,
-    "min_format": 84,
     "description": [
       {"text":"\u26cf Jake's Build Tools \u26cf", "color":"#04b9ff"},
       {"text":"\n"},

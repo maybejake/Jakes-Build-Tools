@@ -21,7 +21,6 @@
     "item.jbt.block_wrench": "Block Wrench",
     "item.jbt.mining_helmet": "Mining Helmet",
     "item.jbt.owners_manual": "Owner's Manual",
-    "item.jbt.build_wand": "Build Wand",
     
     "advancement.jbt.break_trowel.title": "Master Builder",
     "advancement.jbt.break_trowel.desc": "Break a diamond trowel enchanted with unbreaking III",
@@ -65,8 +64,6 @@
     "jbt.tooltip": "\ua001 Jake's Build Tools",
 
     "jbt.loaded":" loaded!",
-    
-    "jbt.version": "5.0.4",
     
     "jbt.dialog.title": "Jake's Build Tools",
     "jbt.dialog.description": "Adds a bunch of craftable tools that help make building easier! Trowel, chisel, hammer and so much more!",
