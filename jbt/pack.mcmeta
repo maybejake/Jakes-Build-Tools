@@ -1,10 +1,3 @@
 {
-  "id": "jakes-build-tools",
-  "pack":{
-    "description": [
-      {"text":"\u26cf Jake's Build Tools \u26cf", "color":"#04b9ff"},
-      {"text":"\n"},
-      {"text":"Tools to make building easy","color":"#7e7e7e"}
-    ]
-  }
+  "id": "jakes-build-tools"
 }

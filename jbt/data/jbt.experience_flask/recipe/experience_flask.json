@@ -8,7 +8,7 @@
   ],
   "key": {
     "g": "minecraft:glass",
-    "t": "minecraft:terracotta",
+    "t": "#minecraft:terracotta",
     "b": "minecraft:experience_bottle"
   },
   "result": {

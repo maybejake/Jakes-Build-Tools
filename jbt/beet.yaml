@@ -1,13 +1,19 @@
 data_pack:
   load: .
+  min_format: [107,1]
+  max_format: [107,1]
 
 resource_pack:
   load:
     - .
+  min_format: [88,0]
+  max_format: [88,0]
 
 pipeline:
-  - jbt.plugins.release
   - mecha
 
-version: 5.0.5
-name: JakesBuildTools
+"description": [
+  {"text":"\u26cf Jake's Build Tools \u26cf", "color":"#04b9ff"},
+  {"text":"\n"},
+  {"text":"Tools to make building easy","color":"#7e7e7e"}
+]
