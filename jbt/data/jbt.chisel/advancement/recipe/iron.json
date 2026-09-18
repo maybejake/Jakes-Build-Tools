@@ -4,13 +4,13 @@
         "requirement": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"items": "minecraft:lightning_rod"}]
+                "items": [{"items": "minecraft:iron_ingot"}]
             }
         }
     },
     "rewards": {
         "recipes": [
-            "jbt.hammer:hammer"
+            "jbt.chisel:iron_chisel"
         ]
     }
 }

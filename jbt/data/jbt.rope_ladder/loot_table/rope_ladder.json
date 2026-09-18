@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ladder",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.jbt.rope_ladder","fallback":"Rope Ladder"},
                 "minecraft:item_model": "jbt:rope_ladder",

@@ -3,10 +3,5 @@
         "requirement": {
             "trigger": "minecraft:tick"
         }
-    },
-    "rewards": {
-        "recipes": [
-            "jbt.main:owners_manual"
-        ]
     }
 }

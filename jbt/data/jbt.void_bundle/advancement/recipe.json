@@ -1,7 +1,11 @@
 {
+    "parent": "jbt.main:recipe/root",
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:tick"
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [{"items": "minecraft:ender_eye"}]
+            }
         }
     },
     "rewards": {

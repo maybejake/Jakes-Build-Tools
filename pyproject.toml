@@ -5,6 +5,6 @@ description = "The Jake's Build Tools repository"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "beet>=0.115.0",
-    "mecha>=0.103.0",
+    "beet @ git+https://github.com/edayot/beet.git@6d9c16b40e1339e997aac64c9ef4a709f6995e14",
+    "mecha @ git+https://github.com/edayot/beet.git@6d9c16b40e1339e997aac64c9ef4a709f6995e14#subdirectory=packages/mecha",
 ]

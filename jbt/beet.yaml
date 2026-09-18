@@ -1,13 +1,14 @@
 data_pack:
   load: .
-  min_format: [107,1]
-  max_format: [107,1]
+  min_format: [121,0]
+  max_format: [121,0]
+  pack_format: 121
 
 resource_pack:
-  load:
-    - .
-  min_format: [88,0]
-  max_format: [88,0]
+  load: .
+  min_format: [97,1]
+  max_format: [97,1]
+  pack_format: 97
 
 pipeline:
   - mecha

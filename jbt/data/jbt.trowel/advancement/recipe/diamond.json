@@ -4,13 +4,13 @@
         "requirement": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "items": [{"items": "minecraft:lightning_rod"}]
+                "items": [{"items": "minecraft:diamond"}]
             }
         }
     },
     "rewards": {
         "recipes": [
-            "jbt.hammer:hammer"
+            "jbt.trowel:diamond_trowel"
         ]
     }
 }

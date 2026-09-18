@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bundle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.jbt.void_bundle","fallback":"Void Bundle"},
                 "minecraft:item_model": "jbt:void_bundle",

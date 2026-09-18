@@ -4,41 +4,37 @@
     "requirement": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "flags": {}
-            }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {}
           }
-        ],
+        },
         "item": {
           "predicates": {
             "minecraft:custom_data": {"jbt":{"id":"mob_bag","filled":false}}
           }
         },
-        "entity": [
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "entity_type": "#jbt.main:interactable"
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{Owner:[]}"
-                }
+        "entity": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "entity_type": "#jbt.main:interactable"
               }
-            ]
-          }
-        ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": {"Owner":[]}
+              }
+            }
+          ]
+        }
       }
     }
   },

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_pickaxe",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.jbt.hammer","fallback":"Hammer"},
                 "minecraft:item_model": "jbt:hammer",
