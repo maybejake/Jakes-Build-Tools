@@ -5,6 +5,6 @@
     "jbt.main:tick_20",
     "jbt.iris:setup/load",
     "dcf:loaded",
-    "dcf:tick_40"
+    "dcf:tick_20"
    ] 
 }
