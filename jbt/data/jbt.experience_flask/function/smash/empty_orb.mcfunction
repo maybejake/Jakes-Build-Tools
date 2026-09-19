@@ -1,1 +1,0 @@
-$summon minecraft:experience_orb ~ ~ ~ {Value:0,Motion:[$(orbx),$(orby),$(orbz)]}

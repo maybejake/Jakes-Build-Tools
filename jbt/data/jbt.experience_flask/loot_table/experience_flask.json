@@ -11,8 +11,8 @@
               "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {"translate":"item.jbt.experience_flask","fallback":"Experience Flask"},
-                "minecraft:item_model": "jbt:experience_flask_0",
-                "minecraft:custom_data": {"jbt":{"id":"experience_flask","corked":false},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:item_model": "jbt:experience_flask",
+                "minecraft:custom_data": {"jbt":{"id":"experience_flask","flask":{"corked":false}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
                 "minecraft:consumable": {"consume_seconds":2147483648,"animation":"bundle","sound":"intentionally_empty","has_consume_particles":false},
                 "minecraft:use_effects": {"can_sprint":true,"speed_multiplier":1,"interact_vibrations":true},

@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "jbt:temp"
+      },
+      "ops": [
+        {
+          "source": "flask.experience",
+          "target": "jbt.flask.experience",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {"jbt":{"flask":{"corked":true}}}
+    },
+    {
+      "type": "minecraft:set_lore",
+      "lore": [{"translate":"item.jbt.experience_flask.tooltip", "with":[{"storage":"jbt:temp","nbt":"flask.levels","plain":true},{"storage":"jbt:temp","nbt":"flask.points","plain":true}], "color":"blue", "italic":false}],
+      "entity": "this",
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:item_name":{"translate":"item.jbt.experience_flask","fallback":"Experience Flask","color":"yellow"}
+      }
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "floats": {"values":[1], "mode":"replace_all"},
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "test": {
+          "max": 16
+        },
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "flask.levels"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "floats": {"values":[2], "mode":"replace_all"},
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "test": {
+          "min": 17,
+          "max": 31
+        },
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "flask.levels"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "floats": {"values":[3], "mode":"replace_all"},
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "test": {
+          "min": 32
+        },
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "flask.levels"
+        }
+      }
+    }
+  ]
+}

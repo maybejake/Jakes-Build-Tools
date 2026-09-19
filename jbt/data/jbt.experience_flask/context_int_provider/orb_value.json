@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:floor_div",
+      "left": {
+        "type": "minecraft:min",
+        "inputs": [
+          {
+            "type": "minecraft:storage",
+            "storage": "jbt:temp",
+            "path": "flask.smash.experience"
+          },
+          "jbt.experience_flask:max_orb_value"
+        ]
+      },
+      "right": {
+        "type": "minecraft:storage",
+        "storage": "jbt:temp",
+        "path": "flask.smash.orbs"
+      }
+    },
+    {
+      "type": "minecraft:conditional",
+      "condition": {
+        "type": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "jbt.remaining_orbs": 0
+        }
+      },
+      "on_true": {
+        "type": "minecraft:mod",
+        "left": {
+          "type": "minecraft:min",
+          "inputs": [
+            {
+              "type": "minecraft:storage",
+              "storage": "jbt:temp",
+              "path": "flask.smash.experience"
+            },
+            "jbt.experience_flask:max_orb_value"
+          ]
+        },
+        "right": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "flask.smash.orbs"
+        }
+      },
+      "on_false": 0
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:number_dispatcher",
+      "cases": [
+        {
+          "condition": {
+            "type": "minecraft:float_value_check",
+            "test": {
+              "min": 0,
+              "max": 16
+            },
+            "value": {
+              "type": "minecraft:storage",
+              "storage": "jbt:temp",
+              "path": "flask.levels"
+            }
+          },
+          "value": {
+            "type": "minecraft:add",
+            "inputs": [
+              {
+                "type": "minecraft:pow",
+                "base": {
+                  "type": "minecraft:storage",
+                  "storage": "jbt:temp",
+                  "path": "flask.levels"
+                },
+                "exponent": 2
+              },
+              {
+                "type": "minecraft:mul",
+                "inputs": [
+                  {
+                    "type": "minecraft:storage",
+                    "storage": "jbt:temp",
+                    "path": "flask.levels"
+                  },
+                  6
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "condition": {
+            "type": "minecraft:float_value_check",
+            "test": {
+              "min": 17,
+              "max": 31
+            },
+            "value": {
+              "type": "minecraft:storage",
+              "storage": "jbt:temp",
+              "path": "flask.levels"
+            }
+          },
+          "value": {
+            "type": "minecraft:add",
+            "inputs": [
+              {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:mul",
+                  "inputs": [
+                    {
+                      "type": "minecraft:pow",
+                      "base": {
+                        "type": "minecraft:storage",
+                        "storage": "jbt:temp",
+                        "path": "flask.levels"
+                      },
+                      "exponent": 2
+                    },
+                    2.5
+                  ]
+                },
+                "right": {
+                  "type": "minecraft:mul",
+                  "inputs": [
+                    {
+                      "type": "minecraft:storage",
+                      "storage": "jbt:temp",
+                      "path": "flask.levels"
+                    },
+                    40.5
+                  ]
+                }
+              },
+              360
+            ]
+          }
+        },
+        {
+          "condition": {
+            "type": "minecraft:float_value_check",
+            "test": {
+              "min": 32
+            },
+            "value": {
+              "type": "minecraft:storage",
+              "storage": "jbt:temp",
+              "path": "flask.levels"
+            }
+          },
+          "value": {
+            "type": "minecraft:add",
+            "inputs": [
+              {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:mul",
+                  "inputs": [
+                    {
+                      "type": "minecraft:pow",
+                      "base": {
+                        "type": "minecraft:storage",
+                        "storage": "jbt:temp",
+                        "path": "flask.levels"
+                      },
+                      "exponent": 2
+                    },
+                    4.5
+                  ]
+                },
+                "right": {
+                  "type": "minecraft:mul",
+                  "inputs": [
+                    {
+                      "type": "minecraft:storage",
+                      "storage": "jbt:temp",
+                      "path": "flask.levels"
+                    },
+                    162.5
+                  ]
+                }
+              },
+              2220
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:storage",
+      "storage": "jbt:temp",
+      "path": "flask.points"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:mul",
+  "inputs": [
+    {
+      "type": "minecraft:uniform",
+      "min": 0.15,
+      "max": 0.25
+    }
+  ]
+}

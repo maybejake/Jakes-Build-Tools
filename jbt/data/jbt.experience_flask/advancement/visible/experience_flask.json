@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:item_model": "jbt:experience_flask_3",
+        "minecraft:item_model": "jbt:experience_flask",
+        "minecraft:custom_model_data": {"floats":[3]},
         "minecraft:enchantment_glint_override": true
       }
     },

@@ -1,6 +1,7 @@
 data remove storage jbt:temp flask
 
-execute store result storage jbt:temp flask.points int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".jbt.points
-execute store result storage jbt:temp flask.levels int 1 run data get entity @s SelectedItem.components."minecraft:custom_data".jbt.levels
+function jbt.main:loot_table/to_data {loot_table:"jbt.main:technical/get_slot/mainhand"}
+data modify storage jbt:temp flask.item set from storage jbt:temp loot_table.output
+
 item replace entity @s[gamemode=!creative] weapon.mainhand with minecraft:air
 function jbt.experience_flask:potion/summon

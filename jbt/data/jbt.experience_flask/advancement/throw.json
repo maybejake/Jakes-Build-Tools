@@ -6,7 +6,7 @@
           "conditions": {
               "item": {
                   "predicates": {
-                      "minecraft:custom_data": {"jbt":{"id":"experience_flask","corked":true}}
+                      "minecraft:custom_data": {"jbt":{"id":"experience_flask","flask":{"corked":true}}}
                   }
               }
           }

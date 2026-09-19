@@ -10,9 +10,8 @@ scoreboard objectives add jbt.dummy dummy
 scoreboard objectives add jbt.id dummy
 
 #flask experience
-scoreboard objectives add jbt.flask_levels dummy
-scoreboard objectives add jbt.flask_points dummy
-scoreboard objectives add jbt.flask_value dummy
+scoreboard objectives add jbt.flask_experience dummy
+scoreboard objectives add jbt.remaining_orbs dummy
 
 #hammer check
 scoreboard objectives add jbt.hammer_check minecraft.used:minecraft.netherite_pickaxe

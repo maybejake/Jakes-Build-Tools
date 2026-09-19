@@ -1,3 +1,2 @@
-execute store result score @s jbt.flask_levels run data get storage jbt:temp flask.levels
-execute store result score @s jbt.flask_points run data get storage jbt:temp flask.points
+execute store result score @s jbt.flask_experience run data get storage jbt:temp flask.item.components."minecraft:custom_data".jbt.flask.experience
 tag @s remove jbt.flask_marker_new

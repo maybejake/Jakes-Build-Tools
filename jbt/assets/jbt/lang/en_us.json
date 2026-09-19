@@ -22,6 +22,8 @@
     "item.jbt.mining_helmet": "Mining Helmet",
     "item.jbt.owners_manual": "Owner's Manual",
     
+    "item.jbt.experience_flask.tooltip": "%1$s levels (%2$s points)",
+    
     "advancement.jbt.break_trowel.title": "Master Builder",
     "advancement.jbt.break_trowel.desc": "Break a diamond trowel enchanted with unbreaking III",
     "advancement.jbt.diamond_chisel.title":"Redecorator",
