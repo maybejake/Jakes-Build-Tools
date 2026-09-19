@@ -2,21 +2,21 @@
   "type": "minecraft:sequence",
   "functions": [
     {
-      "type": "minecraft:set_custom_model_data",
-      "flags": {
-        "values": [false],
-        "mode": "replace_all"
-      }
-    },
-    {
-      "type": "minecraft:set_custom_data",
-      "tag": {"jbt":{"mob_bag":{"filled":false,"uid":-1}}}
+      "type":"minecraft:set_custom_data",
+      "tag":{"jbt":{"tape_measure":{"open":false}}}
     },
     {
       "type": "minecraft:set_lore",
       "entity": "this",
       "lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
       "mode": "replace_all"
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "flags": {
+        "values": [false],
+        "mode": "replace_all"
+      }
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:abs",
+      "input": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "tape.data.x"
+        },
+        "right": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "tape.x"
+        }
+      }
+    },
+    1
+  ]
+}

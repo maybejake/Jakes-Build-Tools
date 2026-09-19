@@ -1,2 +1,6 @@
-$item modify entity @s weapon.offhand [{"type":"minecraft:set_custom_data","tag":{jbt:{id:"tape_measure",x:$(x),y:$(y),z:$(z),uid:$(id),open:true}}},{"type":"minecraft:set_lore","entity":"this","lore":[{"text":"$(x), $(y), $(z)","color":"blue","italic":false},{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],"mode": "replace_all"},{"type":"minecraft:set_components","components":{"minecraft:item_model":"jbt:tape_measure_out"}}]
-$title @s actionbar {"text":"$(x), $(y), $(z)"}
+function jbt.main:loot_table/to_data {loot_table:"jbt.main:technical/get_slot/offhand"}
+function jbt.tape_measure:selection/clean
+
+function jbt.tape_measure:action/store/setup
+
+item modify entity @s weapon.offhand jbt.tape_measure:store

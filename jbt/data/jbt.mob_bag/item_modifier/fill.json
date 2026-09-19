@@ -28,9 +28,9 @@
     },
     {
       "type": "minecraft:set_lore",
-      "entity":"this",
-      "lore":[{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],
-      "mode":"insert"
+      "entity": "this",
+      "lore": [{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],
+      "mode": "insert"
     }
   ]
 }

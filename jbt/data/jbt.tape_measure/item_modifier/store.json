@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type":"minecraft:set_custom_data",
+      "tag":{"jbt":{"tape_measure":{"open":true}}}
+    },
+    {
+      "type": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "jbt:temp"
+      },
+      "ops": [
+        {
+          "source": "tape.x",
+          "target": "jbt.tape_measure.x",
+          "op": "replace"
+        },
+        {
+          "source": "tape.y",
+          "target": "jbt.tape_measure.y",
+          "op": "replace"
+        },
+        {
+          "source": "tape.z",
+          "target": "jbt.tape_measure.z",
+          "op": "replace"
+        },
+        {
+          "source": "tape.uid",
+          "target": "jbt.tape_measure.uid",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "type":"minecraft:set_custom_model_data",
+      "flags": {
+        "values": [true],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [{"translate":"item.jbt.tape_measure.tooltip.coordinate","with":[{"storage":"jbt:temp","nbt":"tape.x","plain":true},{"storage":"jbt:temp","nbt":"tape.y","plain":true},{"storage":"jbt:temp","nbt":"tape.z","plain":true}],"color":"blue","italic":false}],
+      "mode": "insert"
+    }
+  ]
+}

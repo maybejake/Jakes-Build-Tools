@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type":"minecraft:set_custom_data",
+      "tag":{"jbt":{"tape_measure":{"open":false}}}
+    },
+    {
+      "type": "minecraft:set_custom_model_data",
+      "flags": {
+        "values": [false],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [{"storage":"jbt:temp","nbt":"tape.dimensions.first","plain":true,"color":"blue","italic":false}],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1,
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "test": 1,
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "tape.dimensions.count"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [{"translate":"item.jbt.tape_measure.tooltip.dimensions.2","with":[{"storage":"jbt:temp","nbt":"tape.dimensions.first","plain":true},{"storage":"jbt:temp","nbt":"tape.dimensions.second","plain":true}],"color":"blue","italic":false}],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1,
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "test": 2,
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "tape.dimensions.count"
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [{"translate":"item.jbt.tape_measure.tooltip.dimensions.3","with":[{"storage":"jbt:temp","nbt":"tape.dimensions.first","plain":true},{"storage":"jbt:temp","nbt":"tape.dimensions.second","plain":true},{"storage":"jbt:temp","nbt":"tape.dimensions.third","plain":true}],"color":"blue","italic":false}],
+      "mode": "replace_section",
+      "offset": 0,
+      "size": 1,
+      "condition": {
+        "type": "minecraft:int_value_check",
+        "test": 3,
+        "value": {
+          "type": "minecraft:storage",
+          "storage": "jbt:temp",
+          "path": "tape.dimensions.count"
+        }
+      }
+    }
+  ]
+}

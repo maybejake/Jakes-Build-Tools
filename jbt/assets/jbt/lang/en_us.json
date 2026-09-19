@@ -23,6 +23,9 @@
     "item.jbt.owners_manual": "Owner's Manual",
     
     "item.jbt.experience_flask.tooltip": "%1$s levels (%2$s points)",
+    "item.jbt.tape_measure.tooltip.coordinate": "%1$s, %2$s, %3$s",
+    "item.jbt.tape_measure.tooltip.dimensions.2": "%1$sx%2$s",
+    "item.jbt.tape_measure.tooltip.dimensions.3": "%1$sx%2$sx%3$s",
     
     "advancement.jbt.break_trowel.title": "Master Builder",
     "advancement.jbt.break_trowel.desc": "Break a diamond trowel enchanted with unbreaking III",

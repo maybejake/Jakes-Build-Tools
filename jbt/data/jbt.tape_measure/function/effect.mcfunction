@@ -1,6 +1,6 @@
 scoreboard players set @s jbt.cooldown 5
 
-execute if predicate jbt.main:issneaking run function jbt.tape_measure:reset
+execute if predicate jbt.main:issneaking run function jbt.tape_measure:action/reset/main
 
 data remove storage jbt.iris:settings Callback
 data remove storage jbt.iris:settings Whitelist

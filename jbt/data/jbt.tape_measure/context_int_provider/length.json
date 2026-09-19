@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:from_float",
+  "input": {
+    "type": "minecraft:length",
+    "inputs": [
+      {
+        "type": "minecraft:storage",
+        "storage": "jbt:temp",
+        "path": "tape.x"
+      },
+      {
+        "type": "minecraft:storage",
+        "storage": "jbt:temp",
+        "path": "tape.y"
+      },
+      {
+        "type": "minecraft:storage",
+        "storage": "jbt:temp",
+        "path": "tape.z"
+      }
+    ]
+  }
+}
