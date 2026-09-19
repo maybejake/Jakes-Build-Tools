@@ -1,7 +1,5 @@
 particle minecraft:dust{color:[0.8, 0.0, 0.0], scale:0.6} ~ ~0.3 ~ 0.12 0.12 0.12 0 1 force
 particle minecraft:dust{color:[0.0, 0.0, 0.8], scale:0.6} ~ ~0.3 ~ 0.12 0.12 0.12 0 1 force
 
-tag @s add jbt.magnet_moving
-execute facing entity @e[type=item_frame,tag=jbt.has_magnet,sort=nearest,limit=1] feet positioned 0.0 0.0 0.0 positioned ^ ^ ^0.3 summon minecraft:area_effect_cloud run data modify entity @e[type=minecraft:item,tag=jbt.magnet_moving,limit=1] Motion set from entity @s Pos
-execute positioned 0.0 0.0 0.0 run kill @n[type=minecraft:area_effect_cloud,distance=..1]
-tag @s remove jbt.magnet_moving
+execute facing entity @n[type=minecraft:item_frame,tag=jbt.has_magnet] feet positioned 0.0 0.0 0.0 positioned ^ ^ ^0.3 summon minecraft:area_effect_cloud run function jbt.main:get_pos
+data modify entity @s Motion set from storage jbt:temp pos
