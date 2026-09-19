@@ -8,5 +8,5 @@ pipeline:
 
 output: .build
 
-version: 5.0.5
+version: 5.0.7
 name: JakesBuildTools
