@@ -5,7 +5,7 @@
     "equipment": {
       "mainhand": {
         "predicates": {
-          "minecraft:custom_data": {"jbt":{"id":"tape_measure","open":true}}
+          "minecraft:custom_data": {"jbt":{"id":"tape_measure","tape_measure":{"open":true}}}
         }
       }
     }

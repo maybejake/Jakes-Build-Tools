@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:item_model": "jbt:tape_measure_in"
+        "minecraft:item_model": "jbt:tape_measure",
+        "minecraft:custom_model_data": {"flags":[false]}
       }
     },
     "title": {"translate":"advancement.jbt.tape_measure.title","fallback":"Going the Distance"},

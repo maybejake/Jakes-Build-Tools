@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "jbt.tape_measure:open/mainhand",
+    "jbt.tape_measure:open/offhand"
+  ]
+}

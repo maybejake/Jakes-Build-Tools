@@ -8,6 +8,6 @@ data merge storage jbt.iris:settings {TargetEntities:false,MaxRecursionDepth:16,
 
 execute store result score $max_distance jbt.dummy run attribute @s minecraft:block_interaction_range get 1000000
 execute at @s anchored eyes positioned ^ ^ ^ store result score $distance jbt.dummy run function jbt.iris:get_target
-execute if score $distance jbt.dummy <= $max_distance jbt.dummy at @n[type=minecraft:marker, tag=jbt.iris.targeted_block] positioned ~ ~ ~ run return run function jbt.tape_measure:on_block
+execute if score $distance jbt.dummy <= $max_distance jbt.dummy at @n[type=minecraft:marker,tag=jbt.iris.targeted_block] run return run function jbt.tape_measure:on_block
 
 execute if predicate jbt.main:issneaking run function jbt.tape_measure:swing

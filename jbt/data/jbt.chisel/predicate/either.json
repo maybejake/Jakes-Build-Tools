@@ -1,31 +1,7 @@
 {
   "type": "minecraft:any_of",
   "terms": [
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "offhand": {
-            "predicates": {
-              "minecraft:custom_data": {"jbt":{"id":"chisel"}}
-            }
-          }
-        }
-      }
-    },
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "mainhand": {
-            "predicates": {
-              "minecraft:custom_data": {"jbt":{"id":"chisel"}}
-            }
-          }
-        }
-      }
-    }
+    "jbt.chisel:mainhand",
+    "jbt.chisel:offhand"
   ]
 }

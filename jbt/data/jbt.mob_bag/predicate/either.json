@@ -1,31 +1,7 @@
 {
   "type": "minecraft:any_of",
   "terms": [
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "mainhand": {
-            "predicates": {
-              "minecraft:custom_data": {"jbt":{"id":"mob_bag"}}
-            }
-          }
-        }
-      }
-    },
-    {
-      "type": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "offhand": {
-            "predicates": {
-              "minecraft:custom_data": {"jbt":{"id":"mob_bag"}}
-            }
-          }
-        }
-      }
-    }    
+    "jbt.mob_bag:either",
+    "jbt.mob_bag:either"
   ]
 }
