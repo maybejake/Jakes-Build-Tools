@@ -1,6 +1,8 @@
-data modify storage jbt:temp bundle.item set from entity @s SelectedItem.components.minecraft:custom_data.jbt.voided
+# get bundle
+function jbt.main:loot_table/to_data {loot_table:"jbt.main:technical/get_slot/mainhand"}
 
-execute unless data storage jbt:temp bundle.item run return fail
+# attempt to remove voided item
+execute unless function jbt.void_bundle:return/unvoid run return fail
 
-execute run function jbt.void_bundle:return/create with storage jbt:temp bundle
-item modify entity @s weapon.mainhand {"type":"minecraft:set_components","components":{"minecraft:custom_data":{jbt:{id:"void_bundle"},smithed:{ignore:{functionality:1b,crafting:1b}}}}}
+# update the voided list
+item modify entity @s weapon.mainhand jbt.void_bundle:update_voided

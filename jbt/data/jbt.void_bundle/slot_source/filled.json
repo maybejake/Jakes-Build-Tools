@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:limit_slots",
+    "limit": 1,
+    "slot_source": {
+        "type": "minecraft:filtered",
+        "item_filter": {
+            "items": "#minecraft:bundles",
+            "predicates": {
+                "minecraft:custom_data": {"jbt":{"id":"void_bundle"}},
+                "minecraft:bundle_contents": {
+                    "items": {
+                        "count": [
+                            {"test":{"predicates":{"minecraft:bundle_contents":{"items":{"size":{"min":1}}}}}, "count":0}
+                        ],
+                        "size": {"min":1}
+                    }
+                }
+            }
+        },
+        "slot_source": [
+            {
+                "type": "minecraft:slot_range",
+                "slots": "container.*",
+                "source": "this"
+            },
+            {
+                "type": "minecraft:slot_range",
+                "slots": "player.cursor",
+                "source": "this"
+            },
+            {
+                "type": "minecraft:slot_range",
+                "slots": "enderchest.*",
+                "source": "this"
+            }
+        ]
+    }
+}

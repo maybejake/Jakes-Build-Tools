@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_name": {"translate":"item.jbt.void_bundle","fallback":"Void Bundle"},
                 "minecraft:item_model": "jbt:void_bundle",
-                "minecraft:custom_data": {"jbt":{"id":"void_bundle"},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
+                "minecraft:custom_data": {"jbt":{"id":"void_bundle","void_bundle":{"last_voided":[]}},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
                 "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}]
               }
             }

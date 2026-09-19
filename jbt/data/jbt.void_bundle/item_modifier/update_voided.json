@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "jbt:temp"
+  },
+  "ops": [
+    {
+      "source": "bundle.last_voided",
+      "target": "jbt.void_bundle.last_voided",
+      "op": "replace"
+    }
+  ]
+}

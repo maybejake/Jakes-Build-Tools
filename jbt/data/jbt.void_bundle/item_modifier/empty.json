@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_contents",
+      "component": "minecraft:bundle_contents",
+      "entries": []
+    },
+    "jbt.void_bundle:update_voided"
+  ]
+}

@@ -36,8 +36,5 @@ scoreboard objectives add jbt.doodle dummy
 #load chunk
 execute in minecraft:overworld run forceload add -20000000 100 -20000000 100
 
-#create chest
-execute in minecraft:overworld unless block -20000000 -64 99 minecraft:chest run setblock -20000000 -64 99 minecraft:chest
-
 #load pages
 function jbt.main:book/register_all

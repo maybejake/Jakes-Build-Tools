@@ -1,7 +1,7 @@
 playsound minecraft:entity.puffer_fish.blow_out player @a ~ ~ ~ 0.6 1
 playsound minecraft:entity.illusioner.mirror_move player @a ~ ~ ~ 0.5 1.1
 
-$execute anchored eyes run summon minecraft:item ^ ^-0.3 ^ {Item:$(item),Tags:["jbt.bundle_item"],PickupDelay:30}
-execute positioned 0.0 0.0 0.0 positioned ^ ^ ^0.4 summon minecraft:area_effect_cloud run data modify entity @n[tag=jbt.bundle_item] Motion set from entity @s Pos
-execute positioned 0.0 0.0 0.0 run kill @n[type=minecraft:area_effect_cloud,distance=..1]
-tag @n[tag=jbt.bundle_item,distance=..2] remove jbt.bundle_item
+$summon minecraft:item ~ ~ ~ {Item:$(item),Tags:["jbt.bundle_item"],PickupDelay:30}
+execute positioned 0.0 0.0 0.0 positioned ^ ^ ^0.4 summon minecraft:area_effect_cloud run function jbt.main:get_pos
+data modify entity @n[type=minecraft:item,tag=jbt.bundle_item,distance=..0.1] Motion set from storage jbt:temp pos
+tag @n[type=minecraft:item,tag=jbt.bundle_item,distance=..0.1] remove jbt.bundle_item

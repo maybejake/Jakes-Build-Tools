@@ -1,6 +1,8 @@
-data modify storage jbt:temp bundle.item set from entity @s equipment.offhand.components.minecraft:custom_data.kbt.voided
+# get bundle
+function jbt.main:loot_table/to_data {loot_table:"jbt.main:technical/get_slot/offhand"}
 
-execute unless data storage jbt:temp bundle.item run return fail
+# attempt to remove voided item
+execute unless function jbt.void_bundle:return/unvoid run return fail
 
-execute run function jbt.void_bundle:return/create with storage jbt:temp bundle
-item modify entity @s weapon.offhand {"type":"minecraft:set_components","components":{"minecraft:custom_data":{jbt:{id:"void_bundle"},smithed:{ignore:{functionality:1b,crafting:1b}}}}}
+# update the voided list
+item modify entity @s weapon.offhand jbt.void_bundle:update_voided
