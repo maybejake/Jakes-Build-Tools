@@ -15,8 +15,6 @@ playsound minecraft:item.bundle.insert player @a ~ ~ ~ 2 0.1
 playsound minecraft:entity.illusioner.cast_spell player @a ~ ~ ~ 0.2 2
 particle minecraft:cloud ~ ~ ~ 0.4 0.4 0.4 0.1 20 force
 
-execute as @p[tag=jbt.bag_ray] run function jbt.mob_bag:remove/modify with storage jbt:temp bag
-
-execute unless data entity @s CustomName run function jbt.mob_bag:remove/no_name
+execute as @p[tag=jbt.bag_ray] run function jbt.mob_bag:remove/modify
 
 execute in minecraft:overworld run tp @s -20000000 10000 98

@@ -7,5 +7,5 @@ particle minecraft:cloud ~ ~0.8 ~ 0.4 0.4 0.4 0.1 20 force
 
 function jbt.mob_bag:swing
 
-execute if predicate jbt.mob_bag:mainhand run return run item modify entity @s weapon.mainhand [{"type":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_empty"}},{"type":"minecraft:set_custom_data","tag":{jbt:{id:"mob_bag",filled:false,uid:-1}}},{"type": "minecraft:set_lore","entity":"this","lore":[{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],"mode":"replace_all"}]
-execute if predicate jbt.mob_bag:offhand run item modify entity @s weapon.offhand [{"type":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_empty"}},{"type":"minecraft:set_custom_data","tag":{jbt:{id:"mob_bag",filled:false,uid:-1}}},{"type": "minecraft:set_lore","entity":"this","lore":[{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],"mode":"replace_all"}]
+execute if predicate jbt.mob_bag:mainhand run return run item modify entity @s weapon.mainhand jbt.mob_bag:empty
+execute if predicate jbt.mob_bag:offhand run item modify entity @s weapon.offhand jbt.mob_bag:empty

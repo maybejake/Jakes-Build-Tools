@@ -3,7 +3,8 @@
     "icon": {
       "id": "minecraft:poisonous_potato",
       "components": {
-        "minecraft:item_model": "jbt:mob_bag_empty"
+        "minecraft:item_model": "jbt:mob_bag",
+        "minecraft:custom_model_data": {"flags":[false]}
       }
     },
     "title": {"translate":"advancement.jbt.mob_bag.title","fallback":"Like a Lasso"},

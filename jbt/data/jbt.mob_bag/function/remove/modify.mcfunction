@@ -1,3 +1,4 @@
 function jbt.mob_bag:swing
-$execute if predicate jbt.mob_bag:mainhand run return run item modify entity @s weapon.mainhand [{"type":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_full"}},{"type":"minecraft:set_custom_data","tag":{jbt:{id:"mob_bag",filled:true,uid:$(id)}}},{"type": "minecraft:set_lore","entity":"this","lore":[{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],"mode":"insert"}]
-$execute if predicate jbt.mob_bag:offhand run item modify entity @s weapon.offhand [{"type":"minecraft:set_components","components":{"minecraft:item_model":"jbt:mob_bag_full"}},{"type":"minecraft:set_custom_data","tag":{jbt:{id:"mob_bag",filled:true,uid:$(id)}}},{"type": "minecraft:set_lore","entity":"this","lore":[{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],"mode":"insert"}]
+
+execute if predicate jbt.mob_bag:mainhand run return run item modify entity @s weapon.mainhand jbt.mob_bag:fill
+execute if predicate jbt.mob_bag:offhand run item modify entity @s weapon.offhand jbt.mob_bag:fill

@@ -16,7 +16,8 @@
     "count": 1,
     "components": {
       "minecraft:item_name": {"translate":"item.jbt.mob_bag","fallback":"Mob Bag"},
-      "minecraft:item_model": "jbt:mob_bag_empty",
+      "minecraft:item_model": "jbt:mob_bag",
+      "minecraft:custom_model_data": {"flags":[false]},
       "minecraft:custom_data": {"jbt":{"id":"mob_bag","filled":false},"smithed":{"ignore":{"functionality":true,"crafting":true}}},
       "minecraft:lore": [{"translate":"jbt.tooltip","font":"jbt:tooltip","color":"white","italic":false}],
       "minecraft:consumable": {"consume_seconds":2147483648,"animation":"bundle","sound":"intentionally_empty","has_consume_particles":false},

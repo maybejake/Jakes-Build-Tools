@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:copy_custom_data",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "jbt:temp"
+      },
+      "ops": [
+        {
+          "source": "bag.uid",
+          "target": "jbt.mob_bag.uid",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "type":"minecraft:set_custom_model_data",
+      "flags": {
+        "values": [true],
+        "mode": "replace_all"
+      }
+    },
+    {
+      "type":"minecraft:set_custom_data",
+      "tag":{"jbt":{"mob_bag":{"filled":true}}}
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity":"this",
+      "lore":[{"selector":"@e[tag=jbt.bag_contained,predicate=jbt.main:idmatch,limit=1]","color":"blue","italic":false}],
+      "mode":"insert"
+    }
+  ]
+}
